@@ -1,0 +1,200 @@
+<?xml version="1.0" standalone="yes"?>
+
+<!DOCTYPE graphml SYSTEM 'http://graphml.graphdrawing.org/dtds/1.0rc/graphml.dtd'>
+<graphml>
+ <graph edgedefault="directed">
+  <key id="name" for="node">String</key>
+  <key id="type" for="node">String</key>
+  <key id="value" for="edge">Integer</key>
+  <node id="p0">
+   <data key="name">Belgique-Luxembourg</data>
+   <data key="type">country</data>
+  </node>
+  <node id="p1">
+   <data key="name">Deutschland</data>
+   <data key="type">country</data>
+  </node>
+  <node id="p2">
+   <data key="name">France</data>
+   <data key="type">country</data>
+  </node>
+  <node id="p3">
+   <data key="name">Italie</data>
+   <data key="type">country</data>
+  </node>
+  <node id="p4">
+   <data key="name">Nederland</data>
+   <data key="type">country</data>
+  </node>
+  <node id="c0">
+   <data key="name">Bovins</data>
+   <data key="type">category</data>
+  </node>
+  <node id="c1">
+   <data key="name">Chevaux</data>
+   <data key="type">category</data>
+  </node>
+  <node id="c2">
+   <data key="name">Ovins</data>
+   <data key="type">category</data>
+  </node>
+  <node id="c3">
+   <data key="name">Porcs</data>
+   <data key="type">category</data>
+  </node>
+  <node id="c4">
+   <data key="name">Veaux</data>
+   <data key="type">category</data>
+  </node>
+  <edge source="p0" target="c0">
+  <data key="value">6</data>
+  </edge>
+  <edge source="p0" target="c1">
+  <data key="value">6</data>
+  </edge>
+  <edge source="p0" target="c2">
+  <data key="value">2</data>
+  </edge>
+  <edge source="p0" target="c3">
+  <data key="value">5</data>
+  </edge>
+  <edge source="p0" target="c4">
+  <data key="value">3</data>
+  </edge>
+  <edge source="c0" target="p0">
+  <data key="value">6</data>
+  </edge>
+  <edge source="c1" target="p0">
+  <data key="value">6</data>
+  </edge>
+  <edge source="c2" target="p0">
+  <data key="value">2</data>
+  </edge>
+  <edge source="c3" target="p0">
+  <data key="value">5</data>
+  </edge>
+  <edge source="c4" target="p0">
+  <data key="value">3</data>
+  </edge>
+  <edge source="p1" target="c0">
+  <data key="value">32</data>
+  </edge>
+  <edge source="p1" target="c1">
+  <data key="value">6</data>
+  </edge>
+  <edge source="p1" target="c2">
+  <data key="value">5</data>
+  </edge>
+  <edge source="p1" target="c3">
+  <data key="value">45</data>
+  </edge>
+  <edge source="p1" target="c4">
+  <data key="value">15</data>
+  </edge>
+  <edge source="c0" target="p1">
+  <data key="value">32</data>
+  </edge>
+  <edge source="c1" target="p1">
+  <data key="value">6</data>
+  </edge>
+  <edge source="c2" target="p1">
+  <data key="value">5</data>
+  </edge>
+  <edge source="c3" target="p1">
+  <data key="value">45</data>
+  </edge>
+  <edge source="c4" target="p1">
+  <data key="value">15</data>
+  </edge>
+  <edge source="p2" target="c0">
+  <data key="value">37</data>
+  </edge>
+  <edge source="p2" target="c1">
+  <data key="value">61</data>
+  </edge>
+  <edge source="p2" target="c2">
+  <data key="value">69</data>
+  </edge>
+  <edge source="p2" target="c3">
+  <data key="value">29</data>
+  </edge>
+  <edge source="p2" target="c4">
+  <data key="value">59</data>
+  </edge>
+  <edge source="c0" target="p2">
+  <data key="value">37</data>
+  </edge>
+  <edge source="c1" target="p2">
+  <data key="value">61</data>
+  </edge>
+  <edge source="c2" target="p2">
+  <data key="value">69</data>
+  </edge>
+  <edge source="c3" target="p2">
+  <data key="value">29</data>
+  </edge>
+  <edge source="c4" target="p2">
+  <data key="value">59</data>
+  </edge>
+  <edge source="p3" target="c0">
+  <data key="value">16</data>
+  </edge>
+  <edge source="p3" target="c1">
+  <data key="value">23</data>
+  </edge>
+  <edge source="p3" target="c2">
+  <data key="value">21</data>
+  </edge>
+  <edge source="p3" target="c3">
+  <data key="value">9</data>
+  </edge>
+  <edge source="p3" target="c4">
+  <data key="value">14</data>
+  </edge>
+  <edge source="c0" target="p3">
+  <data key="value">16</data>
+  </edge>
+  <edge source="c1" target="p3">
+  <data key="value">23</data>
+  </edge>
+  <edge source="c2" target="p3">
+  <data key="value">21</data>
+  </edge>
+  <edge source="c3" target="p3">
+  <data key="value">9</data>
+  </edge>
+  <edge source="c4" target="p3">
+  <data key="value">14</data>
+  </edge>
+  <edge source="p4" target="c0">
+  <data key="value">9</data>
+  </edge>
+  <edge source="p4" target="c1">
+  <data key="value">4</data>
+  </edge>
+  <edge source="p4" target="c2">
+  <data key="value">3</data>
+  </edge>
+  <edge source="p4" target="c3">
+  <data key="value">12</data>
+  </edge>
+  <edge source="p4" target="c4">
+  <data key="value">9</data>
+  </edge>
+  <edge source="c0" target="p4">
+  <data key="value">9</data>
+  </edge>
+  <edge source="c1" target="p4">
+  <data key="value">4</data>
+  </edge>
+  <edge source="c2" target="p4">
+  <data key="value">3</data>
+  </edge>
+  <edge source="c3" target="p4">
+  <data key="value">12</data>
+  </edge>
+  <edge source="c4" target="p4">
+  <data key="value">9</data>
+  </edge>
+  </graph>
+</graphml>

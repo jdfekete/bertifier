@@ -1,0 +1,299 @@
+<!--
+Bertifier, crafting tabular visualizations, v1
+(c) 2014-2014, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Bertifier</title>
+  <link type="text/css" rel="stylesheet" href="./css/jquery-ui-lightness/jquery-ui-1.10.3.custom.min.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/dataloader.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/bertin.css"/>
+  <script src="./lib/d3/d3.js"></script>
+  <script src="./lib/jquery/jquery-1.9.1.js"></script>
+  <script src="./lib/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="./lib/jquery/jquery.csv-0.71.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div id="warning"></div>
+
+<div id="main">
+
+  <div id="title">
+    BERTIFIER
+  </div>
+
+  <div id="photo">
+    <img src="./img/physical_matrix_lq.png" style="width:400px">
+  </div>
+
+  <div id="help">
+    <a href="./help.html" target="_blank" id="button-help">Help</a>
+  </div>
+
+  <hr>
+
+  <div id="import-csv">
+    <p>UPLOAD YOUR .CSV FILE</p>
+    <input id="csv-file" type="file" accept=".csv" style="width:500px"/>
+  </div>
+
+  <hr>
+
+  <!--
+  <div id="import-gs">
+    <p>OR PASTE YOUR GOOGLE SPREADSHEET URL <input type="button" value="More info..." id="open-help-gs"></p>
+    <textarea id="link-url-gs" style="width: 500px; height:40px;"></textarea>
+  </div>
+
+  <hr>
+  -->
+  
+  <div id="sample">
+    <P>OR CHOOSE A SAMPLE DATASET</P>
+    <select id="select-existing"></select>
+  </div>
+
+  <hr>
+
+  <div id="load">
+    <input type="button" value="Load" id="button-load">
+  </div>
+
+
+
+</div>
+
+<div id="help-frame-gs">
+  <p style="color:red">Warning: Bertifier does not yet accept the new Google Spreadsheets.</p>
+  <p>Go to File -> publish to the web<br>Set the options according to this screen capture (don't forget the CSV format)</p>
+  <img id="help-img" src="./img/publishing.png">
+  <p>Copy the link to your spreadsheet and paste it in the text area</p>
+  <input type="button" value="Close" id="close-help-gs">
+</div>
+
+<div id="footer">
+  <a href="http://charles.perin.free.fr" target="_blank">Charles Perin</a>, <a href="https://www.lri.fr/~dragice/" target="_blank">Pierre Dragicevic</a>, <a href="http://www.aviz.fr/~fekete/" target="_blank">Jean-Daniel Fekete</a>.<br>
+  <a href="http://www.aviz.fr" target="_blank">Aviz</a>, <a href="http://www.inria.fr" target="_blank">INRIA</a>.<br>
+  <a href="http://www.aviz.fr/bertifier" target="_blank">Visit the project page</a><br>
+  <a href="mailto:charles.perin@inria.fr,pierre.dragicevic@inria.fr, jean-daniel.fekete@inria.fr?Subject=Bertifier" target="_top">Email all co-authors</a><br>
+  <a href="./licence.txt" target="_blank">License</a>
+</div>
+
+<script>
+
+  const DATA_FILES = [
+  {name: "Bertin Hotel",                    url: "./data/Bertin_Hotel.csv"},
+  {name: "Bertin Hotel FR",                    url: "./data/Bertin_Hotel_FR.csv"},
+  {name: "Bertin Towns",                    url: "./data/Bertin_Towns.csv"},
+  {name: "Appropriateness",                    url: "./data/Appropriateness.csv"},
+  {name: "European Values",                    url: "./data/European_values.csv"},
+  {name: "Bertin Navy",                    url: "./data/Bertin_Navy.csv"},
+  {name: "Toy dataset",                    url: "./data/figure_encodings.csv"}
+  ];
+
+  /*
+   init function starting when the document is ready
+   */
+  $(document).ready(function(){
+    init();
+  });
+
+  function init(){
+    const is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+    if(!is_chrome){ createChromeWarning(); }
+
+    d3.select("#select-existing").selectAll("option")
+    		.data(DATA_FILES)
+    		.enter().append("option")
+    		.attr({
+    			name: "select-existing",
+    			value: function(d){return d.url}
+    		})
+    		.html(function(d){return d.name});
+    d3.select("#button-load").on("click", function(){selectDataset(this)});
+    d3.select("#close-help-gs").on("click", function(){
+      $("#help-frame-gs").fadeOut(300);
+      d3.select("#main").transition().duration(300).style("opacity",1)
+    });
+    d3.select("#open-help-gs").on("click", function(){
+      $("#help-frame-gs").fadeIn(300);
+      d3.select("#main").transition().duration(300).style("opacity",.08)
+    });
+  }
+	
+	function createChromeError (){
+    d3.select("#main")
+        .style("text-align","center")
+        .html(
+            "Please use <a href='http://www.google.com/chrome/'>Google Chrome</a> to access the page. We do not guarantee everything works as it should using other browsers."
+        );
+  }
+
+  function createChromeWarning(){
+    d3.select("#warning")
+      .style("text-align", "center")
+      .html("Bertifier tries to work on all modern browsers, but is mainly tested against <a href='http://www.google.com/chrome/'>Google Chrome</a>. Please help us by <a href='mailto:charles.perin@inria.fr,pierre.dragicevic@inria.fr, jean-daniel.fekete@inria.fr?Subject=Bertifier'>reporting</a> issues.");
+  }
+
+  function selectDataset(but){
+    var val = undefined;
+
+    var csv_file = $("#csv-file").prop("files")[0];
+    var gs_link = $("#link-url-gs").val();
+
+    //upload csv
+    if(csv_file != undefined && csv_file != ""){
+      readCSVUpload(csv_file);
+    }
+	
+	//sample csv
+	else {
+      if(gs_link != undefined && gs_link != ""){
+        val = gs_link;
+      }
+      else val = $("#select-existing").val();
+
+      readCSVLocal(val);
+    }
+
+	/*
+    //google spreadsheets
+    else {
+      if(gs_link != undefined && gs_link != ""){
+        val = gs_link;
+      }
+      else val = $("#select-existing").val();
+
+      var dataId = getDataIdentifier(val);
+      window.location = "./Matrix.html?dataset="+dataId[1]+"&gs_v="+dataId[0];
+    }
+	*/
+	
+	function readCSVLocal(path){
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', path, true);
+		xhr.responseType = 'blob';
+
+		xhr.onload = function(e) {
+		  if (this.status == 200) {
+			// Note: .response instead of .responseText
+			var blob = new Blob([this.response], {type: 'image/png'});
+			console.log(blob)
+			
+			showLoadingPage();
+		
+        var reader = new FileReader();
+        reader.readAsText(blob);
+        reader.onload = function(event){
+          var csv = event.target.result;
+          localStorage["CSV_DATA"] = JSON.stringify($.csv.toArrays(csv));
+          window.location = "./Matrix.html?csv=1";
+        };
+        reader.onerror = function(){ alert('Unable to read ' + path); };
+		  }
+		};
+
+		xhr.send();
+	}
+	
+	function readCSVUpload(file) {
+
+        
+		
+		console.log(file)
+		
+        showLoadingPage();
+		
+        var reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = function(event){
+          var csv = event.target.result;
+          localStorage["CSV_DATA"] = JSON.stringify($.csv.toArrays(csv));
+          window.location = "./Matrix.html?csv=1";
+        };
+        reader.onerror = function(){ alert('Unable to read ' + file.fileName); };
+     }
+	 
+	 function showLoadingPage(){
+          var loading = d3.select("body").append("div").attr("id","loading");
+          loading.append("p").html("Loading...");
+          loading.append("img")
+              .attr("src", "./img/loading/loading12.png")
+              .style("width","64px")
+              .style("height","64px");
+        }
+  }
+
+  /*
+   Return the data in an array of objects,
+   each value in the array is an object {key: value}, with key=the header of the column, value=the value of the cell
+   */
+  function getDataIdentifier(dataString){
+    var gs_version = undefined;
+
+    var prefixOld = 'https://docs.google.com/spreadsheet/pub?key=',
+        prefixNew = 'https://docs.google.com/spreadsheets/d/',
+        suffixNew = '/pubhtml',
+        suffixOld = '&output=csv';
+
+    var obj = getDataEntry(dataString);
+    var url = undefined;
+
+    if(obj != null) url = obj.url;
+    else url = dataString;
+
+    var key = undefined;
+    if(url.indexOf(prefixNew) != -1){
+      gs_version = 2;
+      key = url.substring(prefixNew.length, url.length-suffixNew.length);
+    }
+    else if(url.indexOf(prefixOld) != -1){
+      if(url.indexOf(suffixOld) == -1){
+        alert("the export format must be csv");
+      }
+      gs_version = 1;
+      key = url.substring(prefixOld.length, url.length-suffixOld.length);
+    }
+    else key = url;
+
+    return [gs_version,key];
+  }
+
+  function getDataEntry(dataName){
+    for(var i=0;i<DATA_FILES.length;i++)
+      if(DATA_FILES[i].name == dataName) return DATA_FILES[i];
+    return null;
+  }
+
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-50004311-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>

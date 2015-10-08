@@ -1,0 +1,18 @@
+{
+  "name": "bertifier",
+  "version": "1.0.1",
+  "description": "Tabular visualization tool",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Aviz team, Inria",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "jasmine": "~2.3.2",
+    "webdriver-sync": "~0.16.5"
+  }
+}

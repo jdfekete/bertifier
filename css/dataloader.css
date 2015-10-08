@@ -1,0 +1,107 @@
+/*
+Bertifier, crafting tabular visualizations, v1
+(c) 2014-2014, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+body{
+  font-family: "RobotoCondensed-Regular";
+}
+
+
+#main{
+  font: 14px "RobotoCondensed-Regular";
+  text-align: center;
+}
+
+input{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#photo{
+  margin-bottom: 20px;
+}
+
+#sample{
+  margin-bottom: 20px;
+}
+
+hr {
+  display: inline-block;
+  height: 1px;
+  border: 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 600px;
+}
+
+#footer {
+  font-size: 14px;
+  position			: fixed;
+  bottom				: 0;
+  left				: 0;
+  right				: 0;
+  height				: 120px;
+  width: 300px;
+}
+
+#open-help{
+  position: absolute;
+  display: inline-block;
+  margin-left: 45px;
+}
+
+#help-img{
+  width: 350px;
+}
+
+#help-frame-gs{
+  border: 4px inset rgb(125,125,125);
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  display:none;
+  top: 70px;
+  left:50%;
+  margin-left: -200px;
+}
+
+.dataloader-table{
+  border: 1px solid black;
+}
+
+#link-url{
+  width: 99%;
+  height: 50px;
+}
+
+.dataloader-existing{
+  background-color: #add8e6;
+  display: inline-block;
+}
+.dataloader-custom{
+  background-color: #f08080;
+  display: inline-block;
+}

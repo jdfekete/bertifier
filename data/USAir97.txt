@@ -1,0 +1,2126 @@
+"Chicago"   "San Francisco"    1
+"Chicago"   "Phoenix"   1
+"Chicago"   "St Louis" 1
+"Chicago"   "Pittsburgh"  1
+"Chicago"   "Philadelphia" 1
+"Seattle"   "Chicago"   1
+"Chicago"   "Salt Lake City"   1
+"Chicago"   "San Diego"  1
+"Chicago"   "Tampa"    1
+"Chicago"   "Raleigh-Durham"  1
+"Chicago"   "Luis Munoz Marin" 1
+"Chicago"   "San Jose"    1
+"Portland" "Chicago"   1
+"Chicago"   "Palm Beach"   1
+"Chicago"   "San Antonio"  1
+"Chicago"   "John Wayne Airport-Orange Coun"    1
+"Chicago"   "Sacramento Metropolitan"   1
+"Chicago"   "Southwest Florida"    1
+"Chicago"   "Reno/Tahoe"  1
+"Chicago"   "Tulsa"    1
+"Chicago"   "Norfolk"  1
+"Chicago"   "Tucson"   1
+"Syracuse Hancock" "Chicago"   1
+"Bangor"   "Chicago"   1
+"Greater Rochester"    "Chicago"   1
+"Chicago"   "Theodore Francis Green State"  1
+"Chicago"   "Louisville"   1
+"Chicago"   "Sarasota/Bradenton"   1
+"Chicago"   "Richmond"    1
+"Chicago"   "Mc Ghee Tyson" 1
+"Portland Jetport" "Chicago"   1
+"Chicago"   "Savannah"    1
+"Chicago"   "Palm Springs Regional" 1
+"Chicago"   "Michiana Rgnl Transportation C"    1
+"Chicago"   "Roanoke Regional/Woodrum Field"    1
+"Chicago"   "Toledo Express"    1
+"Chicago"   "Yeager"    1
+"Chicago"   "Greater Peoria Regional"   1
+"Chicago"   "Stewart Int'l" 1
+"Rapid City Regional"   "Chicago"   1
+"Rochester"   "Chicago"   1
+"Chicago"   "Capital"   1
+"Cherry Capital"    "Chicago"   1
+"Greater Rockford"  "Chicago"   1
+"Wittman Regional"  "Chicago"   1
+"Chicago"   "Dallas"    1
+"Los Angeles"  "Dallas"    1
+"San Francisco"    "Dallas"    1
+"John F Kennedy"   "Dallas"    1
+"Dallas"    "Miami"    1
+"La Guardia"    "Dallas"    1
+"Newark"   "Dallas"    1
+"Phoenix"   "Dallas"    1
+"Detroit"    "Dallas"    1
+"Dallas"    "Honolulu" 1
+"St Louis" "Dallas"    1
+"Minneapolis"    "Dallas"    1
+"Las Vegas"    "Dallas"    1
+"Dallas"    "Orlando"  1
+"Pittsburgh"  "Dallas"    1
+"Dallas"    "Houston"  1
+"Philadelphia" "Dallas"    1
+"Seattle"   "Dallas"    1
+"Salt Lake City"   "Dallas"    1
+"Dallas"    "San Diego"  1
+"Dallas"    "Tampa"    1
+"Washington Dulles"    "Dallas"    1
+"Raleigh-Durham"  "Dallas"    1
+"Dallas"    "Fort Lauderdale"    1
+"Memphis"  "Dallas"    1
+"Dallas"    "Luis Munoz Marin" 1
+"Dallas"    "William P Hobby"   1
+"Chicago Midway"    "Dallas"    1
+"Kansas City"  "Dallas"    1
+"Dallas"    "New Orleans" 1
+"San Jose"    "Dallas"    1
+"Portland" "Dallas"    1
+"Indianapolis" "Dallas"    1
+"Dallas"    "Palm Beach"   1
+"Metropolitan Oakland" "Dallas"    1
+"Dallas"    "San Antonio"  1
+"Ontario"  "Dallas"    1
+"John Wayne Airport-Orange Coun"    "Dallas"    1
+"Milwaukee"    "Dallas"    1
+"Sacramento Metropolitan"   "Dallas"    1
+"Dallas"    "Southwest Florida"    1
+"Dallas"    "El Paso"  1
+"Will Rogers World" "Dallas"    1
+"Reno/Tahoe"  "Dallas"    1
+"Tulsa"    "Dallas"    1
+"Dallas"    "Jacksonville" 1
+"Norfolk"  "Dallas"    1
+"Dallas"    "Tucson"   1
+"Louisville"   "Dallas"    1
+"Eppley Airfield"   "Dallas"    1
+"Adams Field"   "Dallas"    1
+"Richmond"    "Dallas"    1
+"Piedmont Triad"  "Dallas"    1
+"Des Moines"   "Dallas"    1
+"Long Beach /Daugherty Field/"  "Dallas"    1
+"Lubbock"  "Dallas"    1
+"Dallas"    "Midland" 1
+"Wichita Mid-Continent" "Dallas"    1
+"Mc Ghee Tyson" "Dallas"    1
+"Dallas"    "Rio Grande Valley"    1
+"Dallas"    "Savannah"    1
+"Huntsville-Carl T Jones F"    "Dallas"    1
+"Fresno Air Terminal"   "Dallas"    1
+"Palm Springs Regional" "Dallas"    1
+"Dallas"    "Pensacola Regional"    1
+"Dallas"    "Jackson" 1
+"Dallas"    "Mobile Regional"   1
+"Dallas"    "Shreveport Regional"   1
+"Santa Barbara Muni"    "Dallas"    1
+"Dallas"    "Mc Allen Miller"  1
+"Springfield Regional"  "Dallas"    1
+"Jackson Hole"  "Dallas"    1
+"Drake Field"   "Dallas"    1
+"Dallas"    "Lafayette Regional"    1
+"Dallas"    "Monroe Regional"   1
+"Fort Smith Regional"   "Dallas"    1
+"Dallas"    "Tyler Pounds Field"    1
+"Elko Muni-J.C. Harris Field"   "Dallas"    1
+"Lawton Muni"   "Dallas"    1
+"Dallas"    "Alexandria Esler Regional" 1
+"Dallas"    "Mathis Field"  1
+"Dallas"    "Lake Charles Regional" 1
+"Sheppard Afb/Wichita Falls Mun"    "Dallas"    1
+"Dallas"    "Laredo"   1
+"Gunnison County"   "Dallas"    1
+"Dallas"    "Killeen Muni"  1
+"Yampa Valley"  "Dallas"    1
+"Texarkana Regional-Webb Field" "Dallas"    1
+"Dallas"    "Gregg County"  1
+"Eagle County Regional" "Dallas"    1
+"Chicago"   "Atlanta"    1
+"Atlanta"    "Dallas"    1
+"Los Angeles"  "Atlanta"    1
+"San Francisco"    "Atlanta"    1
+"John F Kennedy"   "Atlanta"    1
+"Denver"    "Atlanta"    1
+"Atlanta"    "Miami"    1
+"La Guardia"    "Atlanta"    1
+"Boston" "Atlanta"    1
+"Newark"   "Atlanta"    1
+"Atlanta"    "Phoenix"   1
+"Detroit"    "Atlanta"    1
+"Atlanta"    "Honolulu" 1
+"St Louis" "Atlanta"    1
+"Minneapolis"    "Atlanta"    1
+"Las Vegas"    "Atlanta"    1
+"Atlanta"    "Orlando"  1
+"Pittsburgh"  "Atlanta"    1
+"Atlanta"    "Houston"  1
+"Philadelphia" "Atlanta"    1
+"Seattle"   "Atlanta"    1
+"Charlotte"    "Atlanta"    1
+"Washington National"   "Atlanta"    1
+"Salt Lake City"   "Atlanta"    1
+"Atlanta"    "San Diego"  1
+"Atlanta"    "Tampa"    1
+"Baltimore-Washington" "Atlanta"    1
+"Washington Dulles"    "Atlanta"    1
+"Raleigh-Durham"  "Atlanta"    1
+"Cincinnati"    "Atlanta"    1
+"Atlanta"    "Fort Lauderdale"    1
+"Memphis"  "Atlanta"    1
+"Cleveland-Hopkins"    "Atlanta"    1
+"Atlanta"    "Luis Munoz Marin" 1
+"Atlanta"    "William P Hobby"   1
+"Chicago Midway"    "Atlanta"    1
+"Nashville"   "Atlanta"    1
+"Kansas City"  "Atlanta"    1
+"Atlanta"    "New Orleans" 1
+"Portland" "Atlanta"    1
+"Indianapolis" "Atlanta"    1
+"Atlanta"    "Palm Beach"   1
+"Atlanta"    "San Antonio"  1
+"Ontario"  "Atlanta"    1
+"Bradley"  "Atlanta"    1
+"John Wayne Airport-Orange Coun"    "Atlanta"    1
+"Milwaukee"    "Atlanta"    1
+"Atlanta"    "Robert Mueller Muni"   1
+"James M Cox Dayton"   "Atlanta"    1
+"Port Columbus"    "Atlanta"    1
+"Atlanta"    "Southwest Florida"    1
+"Greater Buffalo"  "Atlanta"    1
+"Atlanta"    "El Paso"  1
+"Will Rogers World" "Atlanta"    1
+"Tulsa"    "Atlanta"    1
+"Atlanta"    "Jacksonville" 1
+"Norfolk"  "Atlanta"    1
+"Syracuse Hancock" "Atlanta"    1
+"Greater Rochester"    "Atlanta"    1
+"Theodore Francis Green State"  "Atlanta"    1
+"Atlanta"    "Birmingham"   1
+"Louisville"   "Atlanta"    1
+"Eppley Airfield"   "Atlanta"    1
+"Atlanta"    "Sarasota/Bradenton"   1
+"Adams Field"   "Atlanta"    1
+"Richmond"    "Atlanta"    1
+"Piedmont Triad"  "Atlanta"    1
+"Atlanta"    "Charleston Afb/Intl"   1
+"Harrisburg"  "Atlanta"    1
+"Greenville-Spartanburg"    "Atlanta"    1
+"Mc Ghee Tyson" "Atlanta"    1
+"Atlanta"    "Cyril E King"  1
+"Columbia Metropolitan" "Atlanta"    1
+"Atlanta"    "Savannah"    1
+"Atlanta"    "Daytona Beach"    1
+"Huntsville-Carl T Jones F"    "Atlanta"    1
+"Atlanta"    "Tallahassee Regional"  1
+"Atlanta"    "Baton Rouge Metropolitan, Ryan"    1
+"Atlanta"    "Pensacola Regional"    1
+"Atlanta"    "Jackson" 1
+"Blue Grass"    "Atlanta"    1
+"Atlanta"    "Mobile Regional"   1
+"Atlanta"    "Melbourne"   1
+"Fort Wayne"  "Atlanta"    1
+"Atlanta"    "Shreveport Regional"   1
+"Toledo Express"    "Atlanta"    1
+"Lovell Field"  "Atlanta"    1
+"Asheville Regional"    "Atlanta"    1
+"Wilkes-Barre/Scranton"    "Atlanta"    1
+"Atlanta"    "Gainesville Regional"  1
+"Tri-Cities Regional Tn/Va" "Atlanta"    1
+"Atlanta"    "Dannelly Field"    1
+"Stewart Int'l" "Atlanta"    1
+"Atlanta"    "Columbus Metropolitan" 1
+"Atlanta"    "Monroe Regional"   1
+"Atlanta"    "Panama City-Bay Co"   1
+"Gunnison County"   "Atlanta"    1
+"Chicago"   "Los Angeles"  1
+"San Francisco"    "Los Angeles"  1
+"Los Angeles"  "Miami"    1
+"Los Angeles"  "Phoenix"   1
+"St Louis" "Los Angeles"  1
+"Minneapolis"    "Los Angeles"  1
+"Los Angeles"  "Orlando"  1
+"Pittsburgh"  "Los Angeles"  1
+"Philadelphia" "Los Angeles"  1
+"Seattle"   "Los Angeles"  1
+"Salt Lake City"   "Los Angeles"  1
+"Los Angeles"  "San Diego"  1
+"Los Angeles"  "Tampa"    1
+"Memphis"  "Los Angeles"  1
+"Kansas City"  "Los Angeles"  1
+"Los Angeles"  "New Orleans" 1
+"San Jose"    "Los Angeles"  1
+"Portland" "Los Angeles"  1
+"Metropolitan Oakland" "Los Angeles"  1
+"Los Angeles"  "John Wayne Airport-Orange Coun"    1
+"Los Angeles"  "Kahului"   1
+"Milwaukee"    "Los Angeles"  1
+"Sacramento Metropolitan"   "Los Angeles"  1
+"Burbank-Glendale-Pasadena" "Los Angeles"  1
+"Reno/Tahoe"  "Los Angeles"  1
+"Los Angeles"  "Tucson"   1
+"Los Angeles"  "Palm Springs Regional" 1
+"Santa Barbara Muni"    "Los Angeles"  1
+"Monterey Peninsula"    "Los Angeles"  1
+"Los Angeles"  "Pago Pago"    1
+"Oxnard"    "Los Angeles"  1
+"Eagle County Regional" "Los Angeles"  1
+"St Louis" "San Francisco"    1
+"Salt Lake City"   "San Francisco"    1
+"San Francisco"    "San Jose"    1
+"Metropolitan Oakland" "San Francisco"    1
+"San Francisco"    "John Wayne Airport-Orange Coun"    1
+"Sacramento Metropolitan"   "San Francisco"    1
+"Lake Tahoe"    "San Francisco"    1
+"Sonoma County" "San Francisco"    1
+"San Francisco"    "Santa Maria Pub/Capt G Allan H"    1
+"Chicago"   "John F Kennedy"   1
+"John F Kennedy"   "Los Angeles"  1
+"John F Kennedy"   "San Francisco"    1
+"John F Kennedy"   "Miami"    1
+"La Guardia"    "John F Kennedy"   1
+"John F Kennedy"   "Phoenix"   1
+"John F Kennedy"   "St Louis" 1
+"Minneapolis"    "John F Kennedy"   1
+"John F Kennedy"   "Las Vegas"    1
+"John F Kennedy"   "Orlando"  1
+"John F Kennedy"   "Pittsburgh"  1
+"John F Kennedy"   "Philadelphia" 1
+"Seattle"   "John F Kennedy"   1
+"Salt Lake City"   "John F Kennedy"   1
+"John F Kennedy"   "San Diego"  1
+"John F Kennedy"   "Tampa"    1
+"John F Kennedy"   "Raleigh-Durham"  1
+"John F Kennedy"   "Luis Munoz Marin" 1
+"John F Kennedy"   "New Orleans" 1
+"John F Kennedy"   "Palm Beach"   1
+"John F Kennedy"   "Norfolk"  1
+"Syracuse Hancock" "John F Kennedy"   1
+"Greater Rochester"    "John F Kennedy"   1
+"John F Kennedy"   "Richmond"    1
+"John F Kennedy"   "Cyril E King"  1
+"John F Kennedy"   "Mercedita" 1
+"Chicago"   "Denver"    1
+"Denver"    "Dallas"    1
+"Denver"    "Los Angeles"  1
+"Denver"    "San Francisco"    1
+"John F Kennedy"   "Denver"    1
+"Denver"    "Miami"    1
+"La Guardia"    "Denver"    1
+"Newark"   "Denver"    1
+"Denver"    "Phoenix"   1
+"Detroit"    "Denver"    1
+"Denver"    "Honolulu" 1
+"Denver"    "St Louis" 1
+"Minneapolis"    "Denver"    1
+"Denver"    "Las Vegas"    1
+"Denver"    "Orlando"  1
+"Pittsburgh"  "Denver"    1
+"Denver"    "Houston"  1
+"Philadelphia" "Denver"    1
+"Seattle"   "Denver"    1
+"Salt Lake City"   "Denver"    1
+"Denver"    "San Diego"  1
+"Denver"    "Tampa"    1
+"Denver"    "Washington Dulles"    1
+"Denver"    "Memphis"  1
+"Denver"    "William P Hobby"   1
+"Chicago Midway"    "Denver"    1
+"Denver"    "Kansas City"  1
+"Denver"    "New Orleans" 1
+"Denver"    "San Jose"    1
+"Portland" "Denver"    1
+"Denver"    "Indianapolis" 1
+"Denver"    "Metropolitan Oakland" 1
+"Denver"    "San Antonio"  1
+"Denver"    "Ontario"  1
+"Denver"    "John Wayne Airport-Orange Coun"    1
+"Milwaukee"    "Denver"    1
+"Denver"    "Sacramento Metropolitan"   1
+"Denver"    "El Paso"  1
+"Denver"    "Will Rogers World" 1
+"Denver"    "Reno/Tahoe"  1
+"Denver"    "Tulsa"    1
+"Denver"    "Tucson"   1
+"Eppley Airfield"   "Denver"    1
+"Spokane"  "Denver"    1
+"Des Moines"   "Denver"    1
+"Denver"    "Long Beach /Daugherty Field/"  1
+"Denver"    "Wichita Mid-Continent" 1
+"Dane County Regional-Truax Fie"    "Denver"    1
+"Denver"    "Fresno Air Terminal"   1
+"Denver"    "Palm Springs Regional" 1
+"Quad-City" "Denver"    1
+"Denver"    "Santa Barbara Muni"    1
+"Mahlon Sweet Field"    "Denver"    1
+"Lincoln Muni"  "Denver"    1
+"Joe Foss Field"    "Denver"    1
+"Denver"    "Springfield Regional"  1
+"Greater Peoria Regional"   "Denver"    1
+"Hector"  "Denver"    1
+"Jackson Hole"  "Denver"    1
+"Denver"    "Walker Field"  1
+"Missoula"    "Denver"    1
+"Sioux Gateway" "Denver"    1
+"Minot"    "Denver"    1
+"Elko Muni-J.C. Harris Field"   "Denver"    1
+"Denver"    "Gunnison County"   1
+"Yampa Valley"  "Denver"    1
+"Denver"    "Eagle County Regional" 1
+"Chicago"   "Miami"    1
+"San Francisco"    "Miami"    1
+"St Louis" "Miami"    1
+"Minneapolis"    "Miami"    1
+"Pittsburgh"  "Miami"    1
+"Philadelphia" "Miami"    1
+"Seattle"   "Miami"    1
+"San Diego"  "Miami"    1
+"Tampa"    "Miami"    1
+"Raleigh-Durham"  "Miami"    1
+"Miami"    "Luis Munoz Marin" 1
+"New Orleans" "Miami"    1
+"San Jose"    "Miami"    1
+"Palm Beach"   "Miami"    1
+"Milwaukee"    "Miami"    1
+"Miami"    "Cyril E King"  1
+"Tallahassee Regional"  "Miami"    1
+"Miami"    "Mercedita" 1
+"Chicago"   "La Guardia"    1
+"La Guardia"    "Miami"    1
+"La Guardia"    "St Louis" 1
+"Minneapolis"    "La Guardia"    1
+"La Guardia"    "Orlando"  1
+"La Guardia"    "Pittsburgh"  1
+"La Guardia"    "Tampa"    1
+"La Guardia"    "Raleigh-Durham"  1
+"La Guardia"    "Memphis"  1
+"Chicago Midway"    "La Guardia"    1
+"La Guardia"    "Kansas City"  1
+"La Guardia"    "New Orleans" 1
+"La Guardia"    "Palm Beach"   1
+"Bradley"  "La Guardia"    1
+"Milwaukee"    "La Guardia"    1
+"La Guardia"    "Southwest Florida"    1
+"La Guardia"    "Norfolk"  1
+"Syracuse Hancock" "La Guardia"    1
+"Greater Rochester"    "La Guardia"    1
+"La Guardia"    "Louisville"   1
+"La Guardia"    "Richmond"    1
+"Portland Jetport" "La Guardia"    1
+"La Guardia"    "Eagle County Regional" 1
+"Boston" "Chicago"   1
+"Boston" "Dallas"    1
+"Boston" "Los Angeles"  1
+"Boston" "San Francisco"    1
+"Boston" "John F Kennedy"   1
+"Boston" "Denver"    1
+"Boston" "Miami"    1
+"Boston" "La Guardia"    1
+"Boston" "Newark"   1
+"Boston" "Phoenix"   1
+"Boston" "Detroit"    1
+"Boston" "St Louis" 1
+"Minneapolis"    "Boston" 1
+"Boston" "Las Vegas"    1
+"Boston" "Orlando"  1
+"Boston" "Pittsburgh"  1
+"Boston" "Houston"  1
+"Boston" "Philadelphia" 1
+"Seattle"   "Boston" 1
+"Boston" "Charlotte"    1
+"Boston" "Washington National"   1
+"Boston" "Salt Lake City"   1
+"Boston" "Tampa"    1
+"Boston" "Baltimore-Washington" 1
+"Boston" "Washington Dulles"    1
+"Boston" "Raleigh-Durham"  1
+"Boston" "Cincinnati"    1
+"Boston" "Fort Lauderdale"    1
+"Boston" "Memphis"  1
+"Boston" "Cleveland-Hopkins"    1
+"Boston" "Luis Munoz Marin" 1
+"Boston" "San Jose"    1
+"Boston" "Indianapolis" 1
+"Boston" "Palm Beach"   1
+"Milwaukee"    "Boston" 1
+"Boston" "James M Cox Dayton"   1
+"Boston" "Port Columbus"    1
+"Boston" "Southwest Florida"    1
+"Greater Buffalo"  "Boston" 1
+"Boston" "Norfolk"  1
+"Syracuse Hancock" "Boston" 1
+"Greater Rochester"    "Boston" 1
+"Boston" "Richmond"    1
+"Portland Jetport" "Boston" 1
+"Boston" "Savannah"    1
+"Chicago"   "Newark"   1
+"Newark"   "Los Angeles"  1
+"Newark"   "San Francisco"    1
+"Newark"   "John F Kennedy"   1
+"Newark"   "Miami"    1
+"La Guardia"    "Newark"   1
+"Newark"   "Phoenix"   1
+"Newark"   "St Louis" 1
+"Minneapolis"    "Newark"   1
+"Newark"   "Las Vegas"    1
+"Newark"   "Orlando"  1
+"Newark"   "Pittsburgh"  1
+"Newark"   "Houston"  1
+"Seattle"   "Newark"   1
+"Newark"   "Tampa"    1
+"Newark"   "Washington Dulles"    1
+"Newark"   "Raleigh-Durham"  1
+"Newark"   "Fort Lauderdale"    1
+"Newark"   "Memphis"  1
+"Newark"   "Luis Munoz Marin" 1
+"Chicago Midway"    "Newark"   1
+"Newark"   "Kansas City"  1
+"Newark"   "New Orleans" 1
+"Newark"   "Indianapolis" 1
+"Newark"   "Palm Beach"   1
+"Milwaukee"    "Newark"   1
+"Newark"   "Southwest Florida"    1
+"Newark"   "Jacksonville" 1
+"Newark"   "Norfolk"  1
+"Syracuse Hancock" "Newark"   1
+"Greater Rochester"    "Newark"   1
+"Theodore Francis Green State"  "Newark"   1
+"Newark"   "Sarasota/Bradenton"   1
+"Newark"   "Richmond"    1
+"Newark"   "Piedmont Triad"  1
+"Kent County"  "Newark"   1
+"Newark"   "Cyril E King"  1
+"Portland Jetport" "Newark"   1
+"Long Island Mac Arthur"    "Newark"   1
+"Newark"   "Savannah"    1
+"Manchester"    "Newark"   1
+"Newark"   "Melbourne"   1
+"Newark"   "Yampa Valley"  1
+"Newark"   "Mercedita" 1
+"San Francisco"    "Phoenix"   1
+"St Louis" "Phoenix"   1
+"Pittsburgh"  "Phoenix"   1
+"Seattle"   "Phoenix"   1
+"Salt Lake City"   "Phoenix"   1
+"Phoenix"   "San Diego"  1
+"San Jose"    "Phoenix"   1
+"Phoenix"   "San Antonio"  1
+"John Wayne Airport-Orange Coun"    "Phoenix"   1
+"Sacramento Metropolitan"   "Phoenix"   1
+"Reno/Tahoe"  "Phoenix"   1
+"Tulsa"    "Phoenix"   1
+"Phoenix"   "Tucson"   1
+"Palm Springs Regional" "Phoenix"   1
+"Phoenix"   "Yuma Mcas/Yuma"   1
+"Detroit"    "Chicago"   1
+"Detroit"    "Los Angeles"  1
+"Detroit"    "San Francisco"    1
+"Detroit"    "John F Kennedy"   1
+"Detroit"    "Miami"    1
+"Detroit"    "La Guardia"    1
+"Detroit"    "Newark"   1
+"Detroit"    "Phoenix"   1
+"Detroit"    "St Louis" 1
+"Minneapolis"    "Detroit"    1
+"Detroit"    "Las Vegas"    1
+"Detroit"    "Orlando"  1
+"Detroit"    "Pittsburgh"  1
+"Detroit"    "Houston"  1
+"Detroit"    "Philadelphia" 1
+"Seattle"   "Detroit"    1
+"Detroit"    "Salt Lake City"   1
+"Detroit"    "San Diego"  1
+"Detroit"    "Tampa"    1
+"Detroit"    "Washington Dulles"    1
+"Detroit"    "Raleigh-Durham"  1
+"Detroit"    "Fort Lauderdale"    1
+"Detroit"    "Memphis"  1
+"Detroit"    "William P Hobby"   1
+"Detroit"    "Chicago Midway"    1
+"Detroit"    "Kansas City"  1
+"Detroit"    "New Orleans" 1
+"Detroit"    "San Jose"    1
+"Portland" "Detroit"    1
+"Detroit"    "Indianapolis" 1
+"Detroit"    "Palm Beach"   1
+"Detroit"    "John Wayne Airport-Orange Coun"    1
+"Milwaukee"    "Detroit"    1
+"Detroit"    "Southwest Florida"    1
+"Detroit"    "Norfolk"  1
+"Syracuse Hancock" "Detroit"    1
+"Greater Rochester"    "Detroit"    1
+"Detroit"    "Theodore Francis Green State"  1
+"Detroit"    "Louisville"   1
+"Detroit"    "Sarasota/Bradenton"   1
+"Detroit"    "Richmond"    1
+"Kent County"  "Detroit"    1
+"Detroit"    "Harrisburg"  1
+"Dane County Regional-Truax Fie"    "Detroit"    1
+"Detroit"    "Michiana Rgnl Transportation C"    1
+"Detroit"    "Westchester County"    1
+"Detroit"    "Fort Wayne"  1
+"Austin Straubel" "Detroit"    1
+"Capital City"  "Detroit"    1
+"Mbs" "Detroit"    1
+"Cherry Capital"    "Detroit"    1
+"Chicago"   "Honolulu" 1
+"Los Angeles"  "Honolulu" 1
+"San Francisco"    "Honolulu" 1
+"Phoenix"   "Honolulu" 1
+"St Louis" "Honolulu" 1
+"Minneapolis"    "Honolulu" 1
+"Las Vegas"    "Honolulu" 1
+"Seattle"   "Honolulu" 1
+"San Diego"  "Honolulu" 1
+"Ontario"  "Honolulu" 1
+"Honolulu" "Kahului"   1
+"Lihue" "Honolulu" 1
+"Honolulu" "Guam"    1
+"Honolulu" "Keahole-Kona"    1
+"Honolulu" "Hilo"    1
+"Honolulu" "Molokai"   1
+"Honolulu" "Pago Pago"    1
+"Honolulu" "Lanai" 1
+"Honolulu" "Johnston Atoll"    1
+"Honolulu" "Kapalua"   1
+"St Louis" "Tampa"    1
+"St Louis" "Tulsa"    1
+"St Louis" "Tucson"   1
+"Syracuse Hancock" "St Louis" 1
+"St Louis" "Mc Ghee Tyson" 1
+"Sioux Gateway" "St Louis" 1
+"Quincy Muni Baldwin Field" "St Louis" 1
+"St Louis" "Forney Aaf"    1
+"Minneapolis"    "Chicago"   1
+"Minneapolis"    "San Francisco"    1
+"Minneapolis"    "Phoenix"   1
+"Minneapolis"    "St Louis" 1
+"Minneapolis"    "Pittsburgh"  1
+"Minneapolis"    "Philadelphia" 1
+"Seattle"   "Minneapolis"    1
+"Minneapolis"    "Salt Lake City"   1
+"Minneapolis"    "San Diego"  1
+"Minneapolis"    "Tampa"    1
+"Minneapolis"    "New Orleans" 1
+"Minneapolis"    "San Jose"    1
+"Portland" "Minneapolis"    1
+"Minneapolis"    "Metropolitan Oakland" 1
+"Minneapolis"    "Ontario"  1
+"Minneapolis"    "John Wayne Airport-Orange Coun"    1
+"Minneapolis"    "Sacramento Metropolitan"   1
+"Minneapolis"    "Southwest Florida"    1
+"Minneapolis"    "Tucson"   1
+"Minneapolis"    "Louisville"   1
+"Minneapolis"    "Eppley Airfield"   1
+"Minneapolis"    "Rapid City Regional"   1
+"Minneapolis"    "Rochester"   1
+"Grand Forks Afb"   "Minneapolis"    1
+"Chicago"   "Las Vegas"    1
+"Las Vegas"    "Los Angeles"  1
+"San Francisco"    "Las Vegas"    1
+"Las Vegas"    "Phoenix"   1
+"St Louis" "Las Vegas"    1
+"Minneapolis"    "Las Vegas"    1
+"Las Vegas"    "Orlando"  1
+"Pittsburgh"  "Las Vegas"    1
+"Philadelphia" "Las Vegas"    1
+"Seattle"   "Las Vegas"    1
+"Salt Lake City"   "Las Vegas"    1
+"Las Vegas"    "San Diego"  1
+"Las Vegas"    "Tampa"    1
+"Las Vegas"    "Memphis"  1
+"Chicago Midway"    "Las Vegas"    1
+"Kansas City"  "Las Vegas"    1
+"San Jose"    "Las Vegas"    1
+"Portland" "Las Vegas"    1
+"Metropolitan Oakland" "Las Vegas"    1
+"Las Vegas"    "San Antonio"  1
+"Las Vegas"    "Ontario"  1
+"Las Vegas"    "John Wayne Airport-Orange Coun"    1
+"Milwaukee"    "Las Vegas"    1
+"Sacramento Metropolitan"   "Las Vegas"    1
+"Reno/Tahoe"  "Las Vegas"    1
+"Las Vegas"    "Tucson"   1
+"Eppley Airfield"   "Las Vegas"    1
+"Las Vegas"    "Palm Springs Regional" 1
+"Chicago"   "Orlando"  1
+"San Francisco"    "Orlando"  1
+"Orlando"  "Miami"    1
+"Phoenix"   "Orlando"  1
+"St Louis" "Orlando"  1
+"Minneapolis"    "Orlando"  1
+"Pittsburgh"  "Orlando"  1
+"Philadelphia" "Orlando"  1
+"Salt Lake City"   "Orlando"  1
+"Orlando"  "Tampa"    1
+"Raleigh-Durham"  "Orlando"  1
+"Memphis"  "Orlando"  1
+"Orlando"  "Luis Munoz Marin" 1
+"Chicago Midway"    "Orlando"  1
+"New Orleans" "Orlando"  1
+"Orlando"  "Palm Beach"   1
+"Milwaukee"    "Orlando"  1
+"Orlando"  "Southwest Florida"    1
+"Syracuse Hancock" "Orlando"  1
+"Theodore Francis Green State"  "Orlando"  1
+"Orlando"  "Sarasota/Bradenton"   1
+"Orlando"  "Cyril E King"  1
+"Savannah"    "Orlando"  1
+"Tallahassee Regional"  "Orlando"  1
+"Pensacola Regional"    "Orlando"  1
+"Pittsburgh"  "San Francisco"    1
+"Pittsburgh"  "St Louis" 1
+"Seattle"   "Pittsburgh"  1
+"Pittsburgh"  "San Diego"  1
+"Pittsburgh"  "Tampa"    1
+"Pittsburgh"  "Raleigh-Durham"  1
+"Pittsburgh"  "San Antonio"  1
+"Pittsburgh"  "Sacramento Metropolitan"   1
+"Pittsburgh"  "Southwest Florida"    1
+"Syracuse Hancock" "Pittsburgh"  1
+"Greater Rochester"    "Pittsburgh"  1
+"Theodore Francis Green State"  "Pittsburgh"  1
+"Pittsburgh"  "Louisville"   1
+"Pittsburgh"  "Sarasota/Bradenton"   1
+"Pittsburgh"  "Richmond"    1
+"Pittsburgh"  "Mc Ghee Tyson" 1
+"Portland Jetport" "Pittsburgh"  1
+"Michiana Rgnl Transportation C"    "Pittsburgh"  1
+"Toledo Express"    "Pittsburgh"  1
+"Pittsburgh"  "Tri-Cities Regional Tn/Va" 1
+"Stewart Int'l" "Pittsburgh"  1
+"Pittsburgh"  "Mercer County" 1
+"Chicago"   "Houston"  1
+"Los Angeles"  "Houston"  1
+"San Francisco"    "Houston"  1
+"Houston"  "Miami"    1
+"La Guardia"    "Houston"  1
+"Phoenix"   "Houston"  1
+"St Louis" "Houston"  1
+"Minneapolis"    "Houston"  1
+"Las Vegas"    "Houston"  1
+"Houston"  "Orlando"  1
+"Pittsburgh"  "Houston"  1
+"Philadelphia" "Houston"  1
+"Seattle"   "Houston"  1
+"Salt Lake City"   "Houston"  1
+"San Diego"  "Houston"  1
+"Houston"  "Tampa"    1
+"Houston"  "William P Hobby"   1
+"Kansas City"  "Houston"  1
+"New Orleans" "Houston"  1
+"San Jose"    "Houston"  1
+"Portland" "Houston"  1
+"Indianapolis" "Houston"  1
+"Houston"  "Palm Beach"   1
+"Houston"  "San Antonio"  1
+"Ontario"  "Houston"  1
+"John Wayne Airport-Orange Coun"    "Houston"  1
+"Sacramento Metropolitan"   "Houston"  1
+"Houston"  "Southwest Florida"    1
+"Will Rogers World" "Houston"  1
+"Tulsa"    "Houston"  1
+"Jacksonville" "Houston"  1
+"Tucson"   "Houston"  1
+"Eppley Airfield"   "Houston"  1
+"Houston"  "Sarasota/Bradenton"   1
+"Pensacola Regional"    "Houston"  1
+"Mobile Regional"   "Houston"  1
+"Houston"  "Mc Allen Miller"  1
+"Lafayette Regional"    "Houston"  1
+"Elko Muni-J.C. Harris Field"   "Houston"  1
+"Philadelphia" "San Francisco"    1
+"Newark"   "Philadelphia" 1
+"Philadelphia" "Phoenix"   1
+"Philadelphia" "St Louis" 1
+"Pittsburgh"  "Philadelphia" 1
+"Salt Lake City"   "Philadelphia" 1
+"Philadelphia" "Tampa"    1
+"Philadelphia" "Raleigh-Durham"  1
+"Philadelphia" "Luis Munoz Marin" 1
+"Philadelphia" "Southwest Florida"    1
+"Syracuse Hancock" "Philadelphia" 1
+"Greater Rochester"    "Philadelphia" 1
+"Theodore Francis Green State"  "Philadelphia" 1
+"Philadelphia" "Sarasota/Bradenton"   1
+"Philadelphia" "Richmond"    1
+"Portland Jetport" "Philadelphia" 1
+"Philadelphia" "Savannah"    1
+"Seattle"   "San Francisco"    1
+"Seattle"   "St Louis" 1
+"Seattle"   "Salt Lake City"   1
+"Seattle"   "San Jose"    1
+"Seattle"   "John Wayne Airport-Orange Coun"    1
+"Seattle"   "Sacramento Metropolitan"   1
+"Seattle"   "Yakima Air Terminal"   1
+"Seattle"   "Roberts Field" 1
+"Seattle"   "Friedman Memorial" 1
+"Chicago"   "Charlotte"    1
+"Charlotte"    "Dallas"    1
+"Charlotte"    "Los Angeles"  1
+"San Francisco"    "Charlotte"    1
+"John F Kennedy"   "Charlotte"    1
+"Denver"    "Charlotte"    1
+"Charlotte"    "Miami"    1
+"La Guardia"    "Charlotte"    1
+"Newark"   "Charlotte"    1
+"Charlotte"    "Phoenix"   1
+"Detroit"    "Charlotte"    1
+"St Louis" "Charlotte"    1
+"Minneapolis"    "Charlotte"    1
+"Las Vegas"    "Charlotte"    1
+"Charlotte"    "Orlando"  1
+"Pittsburgh"  "Charlotte"    1
+"Charlotte"    "Houston"  1
+"Philadelphia" "Charlotte"    1
+"Seattle"   "Charlotte"    1
+"Washington National"   "Charlotte"    1
+"Charlotte"    "San Diego"  1
+"Charlotte"    "Tampa"    1
+"Washington Dulles"    "Charlotte"    1
+"Raleigh-Durham"  "Charlotte"    1
+"Cincinnati"    "Charlotte"    1
+"Charlotte"    "Fort Lauderdale"    1
+"Charlotte"    "Memphis"  1
+"Charlotte"    "Luis Munoz Marin" 1
+"Kansas City"  "Charlotte"    1
+"Charlotte"    "New Orleans" 1
+"Indianapolis" "Charlotte"    1
+"Charlotte"    "Palm Beach"   1
+"Charlotte"    "San Antonio"  1
+"Milwaukee"    "Charlotte"    1
+"James M Cox Dayton"   "Charlotte"    1
+"Port Columbus"    "Charlotte"    1
+"Charlotte"    "Southwest Florida"    1
+"Charlotte"    "Jacksonville" 1
+"Norfolk"  "Charlotte"    1
+"Syracuse Hancock" "Charlotte"    1
+"Greater Rochester"    "Charlotte"    1
+"Theodore Francis Green State"  "Charlotte"    1
+"Louisville"   "Charlotte"    1
+"Charlotte"    "Sarasota/Bradenton"   1
+"Charlotte"    "Adams Field"   1
+"Richmond"    "Charlotte"    1
+"Piedmont Triad"  "Charlotte"    1
+"Harrisburg"  "Charlotte"    1
+"Charlotte"    "Greenville-Spartanburg"    1
+"Mc Ghee Tyson" "Charlotte"    1
+"Long Island Mac Arthur"    "Charlotte"    1
+"Charlotte"    "Savannah"    1
+"Charlotte"    "Daytona Beach"    1
+"Charlotte"    "Huntsville-Carl T Jones F"    1
+"Charlotte"    "Tallahassee Regional"  1
+"Charlotte"    "Pensacola Regional"    1
+"Charlotte"    "Mobile Regional"   1
+"Charlotte"    "Melbourne"   1
+"Roanoke Regional/Woodrum Field"    "Charlotte"    1
+"Charlotte"    "Myrtle Beach" 1
+"Yeager"    "Charlotte"    1
+"Charlotte"    "Gainesville Regional"  1
+"Tri-Cities Regional Tn/Va" "Charlotte"    1
+"Charlotte"    "Dannelly Field"    1
+"Charlotte"    "Fayetteville Regional/Grannis" 1
+"Charlotte"    "New Hanover" 1
+"Charlotte"    "Albert J Ellis"    1
+"Kinston Regional Jetport At St"    "Charlotte"    1
+"Chicago"   "Washington National"   1
+"Washington National"   "Dallas"    1
+"John F Kennedy"   "Washington National"   1
+"Washington National"   "Miami"    1
+"La Guardia"    "Washington National"   1
+"Newark"   "Washington National"   1
+"Detroit"    "Washington National"   1
+"Washington National"   "St Louis" 1
+"Minneapolis"    "Washington National"   1
+"Washington National"   "Orlando"  1
+"Pittsburgh"  "Washington National"   1
+"Washington National"   "Houston"  1
+"Philadelphia" "Washington National"   1
+"Washington National"   "Tampa"    1
+"Washington National"   "Raleigh-Durham"  1
+"Washington National"   "Fort Lauderdale"    1
+"Washington National"   "Memphis"  1
+"Chicago Midway"    "Washington National"   1
+"Kansas City"  "Washington National"   1
+"Washington National"   "New Orleans" 1
+"Indianapolis" "Washington National"   1
+"Washington National"   "Palm Beach"   1
+"Milwaukee"    "Washington National"   1
+"Washington National"   "Southwest Florida"    1
+"Syracuse Hancock" "Washington National"   1
+"Greater Rochester"    "Washington National"   1
+"Theodore Francis Green State"  "Washington National"   1
+"Washington National"   "Louisville"   1
+"Washington National"   "Piedmont Triad"  1
+"Salt Lake City"   "St Louis" 1
+"Salt Lake City"   "John Wayne Airport-Orange Coun"    1
+"Salt Lake City"   "Sacramento Metropolitan"   1
+"Salt Lake City"   "Tulsa"    1
+"Salt Lake City"   "Tucson"   1
+"Friedman Memorial" "Salt Lake City"   1
+"Twin Falls-Sun Valley Regional"    "Salt Lake City"   1
+"San Francisco"    "San Diego"  1
+"St Louis" "San Diego"  1
+"Seattle"   "San Diego"  1
+"Salt Lake City"   "San Diego"  1
+"San Jose"    "San Diego"  1
+"John Wayne Airport-Orange Coun"    "San Diego"  1
+"Sacramento Metropolitan"   "San Diego"  1
+"Palm Springs Regional" "San Diego"  1
+"Chicago"   "Baltimore-Washington" 1
+"Baltimore-Washington" "Dallas"    1
+"Baltimore-Washington" "Los Angeles"  1
+"Baltimore-Washington" "San Francisco"    1
+"John F Kennedy"   "Baltimore-Washington" 1
+"Denver"    "Baltimore-Washington" 1
+"Baltimore-Washington" "Miami"    1
+"La Guardia"    "Baltimore-Washington" 1
+"Newark"   "Baltimore-Washington" 1
+"Baltimore-Washington" "Phoenix"   1
+"Detroit"    "Baltimore-Washington" 1
+"Baltimore-Washington" "St Louis" 1
+"Minneapolis"    "Baltimore-Washington" 1
+"Baltimore-Washington" "Las Vegas"    1
+"Baltimore-Washington" "Orlando"  1
+"Pittsburgh"  "Baltimore-Washington" 1
+"Baltimore-Washington" "Houston"  1
+"Philadelphia" "Baltimore-Washington" 1
+"Baltimore-Washington" "Charlotte"    1
+"Baltimore-Washington" "Tampa"    1
+"Baltimore-Washington" "Raleigh-Durham"  1
+"Baltimore-Washington" "Cincinnati"    1
+"Baltimore-Washington" "Fort Lauderdale"    1
+"Cleveland-Hopkins"    "Baltimore-Washington" 1
+"Baltimore-Washington" "Luis Munoz Marin" 1
+"Kansas City"  "Baltimore-Washington" 1
+"Baltimore-Washington" "New Orleans" 1
+"Indianapolis" "Baltimore-Washington" 1
+"Baltimore-Washington" "Palm Beach"   1
+"James M Cox Dayton"   "Baltimore-Washington" 1
+"Port Columbus"    "Baltimore-Washington" 1
+"Baltimore-Washington" "Southwest Florida"    1
+"Baltimore-Washington" "Jacksonville" 1
+"Baltimore-Washington" "Norfolk"  1
+"Syracuse Hancock" "Baltimore-Washington" 1
+"Greater Rochester"    "Baltimore-Washington" 1
+"Theodore Francis Green State"  "Baltimore-Washington" 1
+"Baltimore-Washington" "Sarasota/Bradenton"   1
+"Baltimore-Washington" "Richmond"    1
+"Baltimore-Washington" "Piedmont Triad"  1
+"Long Island Mac Arthur"    "Baltimore-Washington" 1
+"Baltimore-Washington" "Savannah"    1
+"Baltimore-Washington" "Roanoke Regional/Woodrum Field"    1
+"Oneida County" "Baltimore-Washington" 1
+"Chicago"   "Washington Dulles"    1
+"Washington Dulles"    "Los Angeles"  1
+"Washington Dulles"    "San Francisco"    1
+"John F Kennedy"   "Washington Dulles"    1
+"Washington Dulles"    "Miami"    1
+"La Guardia"    "Washington Dulles"    1
+"Washington Dulles"    "Phoenix"   1
+"Washington Dulles"    "St Louis" 1
+"Minneapolis"    "Washington Dulles"    1
+"Washington Dulles"    "Orlando"  1
+"Pittsburgh"  "Washington Dulles"    1
+"Washington Dulles"    "Houston"  1
+"Philadelphia" "Washington Dulles"    1
+"Seattle"   "Washington Dulles"    1
+"Washington Dulles"    "Washington National"   1
+"Salt Lake City"   "Washington Dulles"    1
+"Washington Dulles"    "San Diego"  1
+"Washington Dulles"    "Tampa"    1
+"Baltimore-Washington" "Washington Dulles"    1
+"Washington Dulles"    "Luis Munoz Marin" 1
+"Washington Dulles"    "New Orleans" 1
+"Washington Dulles"    "Norfolk"  1
+"Greater Rochester"    "Washington Dulles"    1
+"Theodore Francis Green State"  "Washington Dulles"    1
+"Washington Dulles"    "Richmond"    1
+"Harrisburg"  "Washington Dulles"    1
+"Portland Jetport" "Washington Dulles"    1
+"Washington Dulles"    "Savannah"    1
+"Manchester"    "Washington Dulles"    1
+"Washington Dulles"    "Roanoke Regional/Woodrum Field"    1
+"University Park"   "Washington Dulles"    1
+"St Louis" "Raleigh-Durham"  1
+"Raleigh-Durham"  "Tampa"    1
+"Raleigh-Durham"  "Luis Munoz Marin" 1
+"Raleigh-Durham"  "Southwest Florida"    1
+"Syracuse Hancock" "Raleigh-Durham"  1
+"Greater Rochester"    "Raleigh-Durham"  1
+"Raleigh-Durham"  "Sarasota/Bradenton"   1
+"Richmond"    "Raleigh-Durham"  1
+"Raleigh-Durham"  "Cyril E King"  1
+"Raleigh-Durham"  "Savannah"    1
+"Stewart Int'l" "Raleigh-Durham"  1
+"Chicago"   "Cincinnati"    1
+"Cincinnati"    "Dallas"    1
+"Cincinnati"    "Los Angeles"  1
+"Cincinnati"    "San Francisco"    1
+"John F Kennedy"   "Cincinnati"    1
+"Denver"    "Cincinnati"    1
+"Cincinnati"    "Miami"    1
+"La Guardia"    "Cincinnati"    1
+"Newark"   "Cincinnati"    1
+"Cincinnati"    "Phoenix"   1
+"Detroit"    "Cincinnati"    1
+"Cincinnati"    "St Louis" 1
+"Minneapolis"    "Cincinnati"    1
+"Cincinnati"    "Las Vegas"    1
+"Cincinnati"    "Orlando"  1
+"Pittsburgh"  "Cincinnati"    1
+"Philadelphia" "Cincinnati"    1
+"Seattle"   "Cincinnati"    1
+"Cincinnati"    "Washington National"   1
+"Salt Lake City"   "Cincinnati"    1
+"Cincinnati"    "San Diego"  1
+"Cincinnati"    "Tampa"    1
+"Cincinnati"    "Raleigh-Durham"  1
+"Cincinnati"    "Fort Lauderdale"    1
+"Cincinnati"    "Memphis"  1
+"Cincinnati"    "William P Hobby"   1
+"Kansas City"  "Cincinnati"    1
+"Cincinnati"    "New Orleans" 1
+"Portland" "Cincinnati"    1
+"Indianapolis" "Cincinnati"    1
+"Cincinnati"    "Palm Beach"   1
+"Milwaukee"    "Cincinnati"    1
+"Cincinnati"    "Southwest Florida"    1
+"Cincinnati"    "Jacksonville" 1
+"Cincinnati"    "Norfolk"  1
+"Syracuse Hancock" "Cincinnati"    1
+"Greater Rochester"    "Cincinnati"    1
+"Cincinnati"    "Louisville"   1
+"Cincinnati"    "Sarasota/Bradenton"   1
+"Cincinnati"    "Adams Field"   1
+"Cincinnati"    "Richmond"    1
+"Cincinnati"    "Piedmont Triad"  1
+"Kent County"  "Cincinnati"    1
+"Cincinnati"    "Mc Ghee Tyson" 1
+"Portland Jetport" "Cincinnati"    1
+"Cincinnati"    "Jackson" 1
+"Cincinnati"    "Blue Grass"    1
+"Michiana Rgnl Transportation C"    "Cincinnati"    1
+"Fort Wayne"  "Cincinnati"    1
+"Chicago"   "Fort Lauderdale"    1
+"John F Kennedy"   "Fort Lauderdale"    1
+"Fort Lauderdale"    "Miami"    1
+"La Guardia"    "Fort Lauderdale"    1
+"St Louis" "Fort Lauderdale"    1
+"Minneapolis"    "Fort Lauderdale"    1
+"Orlando"  "Fort Lauderdale"    1
+"Pittsburgh"  "Fort Lauderdale"    1
+"Houston"  "Fort Lauderdale"    1
+"Philadelphia" "Fort Lauderdale"    1
+"Tampa"    "Fort Lauderdale"    1
+"Washington Dulles"    "Fort Lauderdale"    1
+"Raleigh-Durham"  "Fort Lauderdale"    1
+"Memphis"  "Fort Lauderdale"    1
+"Chicago Midway"    "Fort Lauderdale"    1
+"New Orleans" "Fort Lauderdale"    1
+"Indianapolis" "Fort Lauderdale"    1
+"Palm Beach"   "Fort Lauderdale"    1
+"Milwaukee"    "Fort Lauderdale"    1
+"Southwest Florida"    "Fort Lauderdale"    1
+"Long Island Mac Arthur"    "Fort Lauderdale"    1
+"St Petersburg/Clearwater" "Fort Lauderdale"    1
+"Chicago"   "Memphis"  1
+"San Francisco"    "Memphis"  1
+"Memphis"  "Miami"    1
+"Memphis"  "Phoenix"   1
+"St Louis" "Memphis"  1
+"Minneapolis"    "Memphis"  1
+"Pittsburgh"  "Memphis"  1
+"Philadelphia" "Memphis"  1
+"Seattle"   "Memphis"  1
+"Memphis"  "Tampa"    1
+"Memphis"  "New Orleans" 1
+"Memphis"  "San Antonio"  1
+"Milwaukee"    "Memphis"  1
+"Memphis"  "Southwest Florida"    1
+"Will Rogers World" "Memphis"  1
+"Tulsa"    "Memphis"  1
+"Louisville"   "Memphis"  1
+"Eppley Airfield"   "Memphis"  1
+"Mc Ghee Tyson" "Memphis"  1
+"Memphis"  "Eglin Afb" 1
+"Chicago"   "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "Dallas"    1
+"Cleveland-Hopkins"    "Los Angeles"  1
+"Cleveland-Hopkins"    "San Francisco"    1
+"Cleveland-Hopkins"    "John F Kennedy"   1
+"Cleveland-Hopkins"    "Denver"    1
+"Cleveland-Hopkins"    "Miami"    1
+"Cleveland-Hopkins"    "La Guardia"    1
+"Cleveland-Hopkins"    "Newark"   1
+"Cleveland-Hopkins"    "Phoenix"   1
+"Detroit"    "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "St Louis" 1
+"Minneapolis"    "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "Las Vegas"    1
+"Cleveland-Hopkins"    "Orlando"  1
+"Cleveland-Hopkins"    "Pittsburgh"  1
+"Cleveland-Hopkins"    "Houston"  1
+"Cleveland-Hopkins"    "Philadelphia" 1
+"Seattle"   "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "Charlotte"    1
+"Cleveland-Hopkins"    "Washington National"   1
+"Cleveland-Hopkins"    "Tampa"    1
+"Cleveland-Hopkins"    "Washington Dulles"    1
+"Cleveland-Hopkins"    "Raleigh-Durham"  1
+"Cleveland-Hopkins"    "Cincinnati"    1
+"Cleveland-Hopkins"    "Fort Lauderdale"    1
+"Chicago Midway"    "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "Kansas City"  1
+"Cleveland-Hopkins"    "New Orleans" 1
+"Cleveland-Hopkins"    "Indianapolis" 1
+"Cleveland-Hopkins"    "Palm Beach"   1
+"Milwaukee"    "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "Southwest Florida"    1
+"Theodore Francis Green State"  "Cleveland-Hopkins"    1
+"Cleveland-Hopkins"    "Louisville"   1
+"Cleveland-Hopkins"    "Sarasota/Bradenton"   1
+"Cleveland-Hopkins"    "Yampa Valley"  1
+"St Louis" "Luis Munoz Marin" 1
+"Tampa"    "Luis Munoz Marin" 1
+"Luis Munoz Marin" "Cyril E King"  1
+"Luis Munoz Marin" "Alexander Hamilton"    1
+"Chicago"   "William P Hobby"   1
+"John F Kennedy"   "William P Hobby"   1
+"William P Hobby"   "Miami"    1
+"Phoenix"   "William P Hobby"   1
+"St Louis" "William P Hobby"   1
+"Minneapolis"    "William P Hobby"   1
+"Memphis"  "William P Hobby"   1
+"Chicago Midway"    "William P Hobby"   1
+"New Orleans" "William P Hobby"   1
+"William P Hobby"   "San Antonio"  1
+"Will Rogers World" "William P Hobby"   1
+"Tulsa"    "William P Hobby"   1
+"Midland" "William P Hobby"   1
+"William P Hobby"   "Rio Grande Valley"    1
+"Chicago Midway"    "St Louis" 1
+"Minneapolis"    "Chicago Midway"    1
+"Chicago Midway"    "Pittsburgh"  1
+"Seattle"   "Chicago Midway"    1
+"Chicago Midway"    "Tampa"    1
+"Chicago Midway"    "Southwest Florida"    1
+"Chicago Midway"    "Savannah"    1
+"Chicago Midway"    "Capital"   1
+"Chicago Midway"    "St Petersburg/Clearwater" 1
+"Chicago"   "Nashville"   1
+"Nashville"   "Dallas"    1
+"Nashville"   "Los Angeles"  1
+"San Francisco"    "Nashville"   1
+"Denver"    "Nashville"   1
+"Nashville"   "Miami"    1
+"La Guardia"    "Nashville"   1
+"Boston" "Nashville"   1
+"Newark"   "Nashville"   1
+"Nashville"   "Phoenix"   1
+"Detroit"    "Nashville"   1
+"St Louis" "Nashville"   1
+"Minneapolis"    "Nashville"   1
+"Nashville"   "Las Vegas"    1
+"Nashville"   "Orlando"  1
+"Pittsburgh"  "Nashville"   1
+"Nashville"   "Houston"  1
+"Philadelphia" "Nashville"   1
+"Nashville"   "Charlotte"    1
+"Washington National"   "Nashville"   1
+"Nashville"   "San Diego"  1
+"Nashville"   "Tampa"    1
+"Baltimore-Washington" "Nashville"   1
+"Nashville"   "Raleigh-Durham"  1
+"Cincinnati"    "Nashville"   1
+"Nashville"   "Fort Lauderdale"    1
+"Nashville"   "Memphis"  1
+"Cleveland-Hopkins"    "Nashville"   1
+"Nashville"   "Luis Munoz Marin" 1
+"Nashville"   "William P Hobby"   1
+"Chicago Midway"    "Nashville"   1
+"Kansas City"  "Nashville"   1
+"Nashville"   "New Orleans" 1
+"Indianapolis" "Nashville"   1
+"Nashville"   "Palm Beach"   1
+"Nashville"   "San Antonio"  1
+"Milwaukee"    "Nashville"   1
+"Port Columbus"    "Nashville"   1
+"Nashville"   "Southwest Florida"    1
+"Nashville"   "Jacksonville" 1
+"Norfolk"  "Nashville"   1
+"Louisville"   "Nashville"   1
+"Nashville"   "Adams Field"   1
+"Richmond"    "Nashville"   1
+"Nashville"   "Piedmont Triad"  1
+"Nashville"   "Mc Ghee Tyson" 1
+"Nashville"   "Huntsville-Carl T Jones F"    1
+"Nashville"   "Baton Rouge Metropolitan, Ryan"    1
+"Nashville"   "Pensacola Regional"    1
+"Nashville"   "Jackson" 1
+"Blue Grass"    "Nashville"   1
+"Michiana Rgnl Transportation C"    "Nashville"   1
+"Nashville"   "Mobile Regional"   1
+"Chicago"   "Kansas City"  1
+"Kansas City"  "San Francisco"    1
+"Kansas City"  "Phoenix"   1
+"Kansas City"  "St Louis" 1
+"Minneapolis"    "Kansas City"  1
+"Kansas City"  "Orlando"  1
+"Pittsburgh"  "Kansas City"  1
+"Philadelphia" "Kansas City"  1
+"Seattle"   "Kansas City"  1
+"Salt Lake City"   "Kansas City"  1
+"Kansas City"  "San Diego"  1
+"Kansas City"  "Memphis"  1
+"Chicago Midway"    "Kansas City"  1
+"Milwaukee"    "Kansas City"  1
+"Kansas City"  "Will Rogers World" 1
+"Kansas City"  "Tulsa"    1
+"Eppley Airfield"   "Kansas City"  1
+"Elko Muni-J.C. Harris Field"   "Kansas City"  1
+"Chicago"   "New Orleans" 1
+"San Francisco"    "New Orleans" 1
+"St Louis" "New Orleans" 1
+"Pittsburgh"  "New Orleans" 1
+"Philadelphia" "New Orleans" 1
+"Salt Lake City"   "New Orleans" 1
+"New Orleans" "Tampa"    1
+"New Orleans" "San Antonio"  1
+"St Louis" "San Jose"    1
+"Salt Lake City"   "San Jose"    1
+"San Jose"    "John Wayne Airport-Orange Coun"    1
+"Sacramento Metropolitan"   "San Jose"    1
+"San Jose"    "Long Beach /Daugherty Field/"  1
+"Portland" "San Francisco"    1
+"Portland" "Phoenix"   1
+"Seattle"   "Portland" 1
+"Portland" "Salt Lake City"   1
+"Portland" "San Diego"  1
+"Portland" "San Jose"    1
+"Portland" "John Wayne Airport-Orange Coun"    1
+"Portland" "Sacramento Metropolitan"   1
+"Portland" "Reno/Tahoe"  1
+"Tri-Cities"    "Portland" 1
+"Yakima Air Terminal"   "Portland" 1
+"Portland" "Roberts Field" 1
+"Pullman/Moscow Regional"   "Portland" 1
+"Portland" "Mcnary Fld"    1
+"Dallas Love Field" "Houston"  1
+"Dallas Love Field" "William P Hobby"   1
+"Dallas Love Field" "New Orleans" 1
+"Dallas Love Field" "San Antonio"  1
+"Dallas Love Field" "El Paso"  1
+"Will Rogers World" "Dallas Love Field" 1
+"Tulsa"    "Dallas Love Field" 1
+"Adams Field"   "Dallas Love Field" 1
+"Lubbock"  "Dallas Love Field" 1
+"Dallas Love Field" "Midland" 1
+"Chicago"   "Indianapolis" 1
+"Indianapolis" "Los Angeles"  1
+"Indianapolis" "San Francisco"    1
+"John F Kennedy"   "Indianapolis" 1
+"Indianapolis" "Miami"    1
+"La Guardia"    "Indianapolis" 1
+"Indianapolis" "Phoenix"   1
+"Indianapolis" "St Louis" 1
+"Minneapolis"    "Indianapolis" 1
+"Indianapolis" "Las Vegas"    1
+"Indianapolis" "Orlando"  1
+"Pittsburgh"  "Indianapolis" 1
+"Philadelphia" "Indianapolis" 1
+"Indianapolis" "Tampa"    1
+"Indianapolis" "Memphis"  1
+"Chicago Midway"    "Indianapolis" 1
+"Indianapolis" "Kansas City"  1
+"Indianapolis" "New Orleans" 1
+"Indianapolis" "Southwest Florida"    1
+"Indianapolis" "Louisville"   1
+"Indianapolis" "St Petersburg/Clearwater" 1
+"St Louis" "Palm Beach"   1
+"Pittsburgh"  "Palm Beach"   1
+"Philadelphia" "Palm Beach"   1
+"Tampa"    "Palm Beach"   1
+"Raleigh-Durham"  "Palm Beach"   1
+"Palm Beach"   "Southwest Florida"    1
+"Chicago"   "Metropolitan Oakland" 1
+"Metropolitan Oakland" "Phoenix"   1
+"Seattle"   "Metropolitan Oakland" 1
+"Salt Lake City"   "Metropolitan Oakland" 1
+"Metropolitan Oakland" "San Diego"  1
+"Portland" "Metropolitan Oakland" 1
+"Metropolitan Oakland" "Ontario"  1
+"Metropolitan Oakland" "John Wayne Airport-Orange Coun"    1
+"Sacramento Metropolitan"   "Metropolitan Oakland" 1
+"Reno/Tahoe"  "Metropolitan Oakland" 1
+"Metropolitan Oakland" "Palm Springs Regional" 1
+"St Louis" "San Antonio"  1
+"Salt Lake City"   "San Antonio"  1
+"Chicago"   "Ontario"  1
+"San Francisco"    "Ontario"  1
+"Ontario"  "Phoenix"   1
+"St Louis" "Ontario"  1
+"Seattle"   "Ontario"  1
+"Salt Lake City"   "Ontario"  1
+"Ontario"  "San Diego"  1
+"San Jose"    "Ontario"  1
+"Portland" "Ontario"  1
+"Ontario"  "John Wayne Airport-Orange Coun"    1
+"Sacramento Metropolitan"   "Ontario"  1
+"Reno/Tahoe"  "Ontario"  1
+"Ontario"  "Palm Springs Regional" 1
+"Chicago"   "Albuquerque"  1
+"Albuquerque"  "Dallas"    1
+"Albuquerque"  "Atlanta"    1
+"Albuquerque"  "Los Angeles"  1
+"San Francisco"    "Albuquerque"  1
+"Denver"    "Albuquerque"  1
+"Albuquerque"  "Phoenix"   1
+"St Louis" "Albuquerque"  1
+"Minneapolis"    "Albuquerque"  1
+"Las Vegas"    "Albuquerque"  1
+"Pittsburgh"  "Albuquerque"  1
+"Albuquerque"  "Houston"  1
+"Salt Lake City"   "Albuquerque"  1
+"Albuquerque"  "San Diego"  1
+"Cincinnati"    "Albuquerque"  1
+"Albuquerque"  "William P Hobby"   1
+"Albuquerque"  "Dallas Love Field" 1
+"Albuquerque"  "El Paso"  1
+"Albuquerque"  "Tucson"   1
+"Albuquerque"  "Lubbock"  1
+"Albuquerque"  "Midland" 1
+"Amarillo" "Albuquerque"  1
+"Elko Muni-J.C. Harris Field"   "Albuquerque"  1
+"Chicago"   "Bradley"  1
+"Bradley"  "Dallas"    1
+"Bradley"  "John F Kennedy"   1
+"Bradley"  "Miami"    1
+"Boston" "Bradley"  1
+"Bradley"  "Newark"   1
+"Detroit"    "Bradley"  1
+"Bradley"  "St Louis" 1
+"Minneapolis"    "Bradley"  1
+"Bradley"  "Orlando"  1
+"Bradley"  "Pittsburgh"  1
+"Bradley"  "Philadelphia" 1
+"Bradley"  "Charlotte"    1
+"Bradley"  "Washington National"   1
+"Bradley"  "Tampa"    1
+"Bradley"  "Baltimore-Washington" 1
+"Bradley"  "Washington Dulles"    1
+"Bradley"  "Raleigh-Durham"  1
+"Bradley"  "Cincinnati"    1
+"Bradley"  "Fort Lauderdale"    1
+"Bradley"  "Cleveland-Hopkins"    1
+"Bradley"  "Luis Munoz Marin" 1
+"Bradley"  "Nashville"   1
+"Bradley"  "Palm Beach"   1
+"Greater Buffalo"  "Bradley"  1
+"Syracuse Hancock" "Bradley"  1
+"Greater Rochester"    "Bradley"  1
+"St Louis" "John Wayne Airport-Orange Coun"    1
+"Burbank-Glendale-Pasadena" "John Wayne Airport-Orange Coun"    1
+"San Francisco"    "Kahului"   1
+"Seattle"   "Kahului"   1
+"Molokai"   "Kahului"   1
+"Milwaukee"    "Chicago"   1
+"Milwaukee"    "San Francisco"    1
+"Milwaukee"    "Phoenix"   1
+"Milwaukee"    "St Louis" 1
+"Minneapolis"    "Milwaukee"    1
+"Milwaukee"    "Pittsburgh"  1
+"Milwaukee"    "Philadelphia" 1
+"Seattle"   "Milwaukee"    1
+"Milwaukee"    "San Diego"  1
+"Milwaukee"    "Tampa"    1
+"Dane County Regional-Truax Fie"    "Milwaukee"    1
+"Wittman Regional"  "Milwaukee"    1
+"Chicago"   "Robert Mueller Muni"   1
+"Dallas"    "Robert Mueller Muni"   1
+"Denver"    "Robert Mueller Muni"   1
+"Phoenix"   "Robert Mueller Muni"   1
+"Pittsburgh"  "Robert Mueller Muni"   1
+"Robert Mueller Muni"   "Houston"  1
+"Philadelphia" "Robert Mueller Muni"   1
+"Charlotte"    "Robert Mueller Muni"   1
+"Memphis"  "Robert Mueller Muni"   1
+"Robert Mueller Muni"   "William P Hobby"   1
+"San Jose"    "Robert Mueller Muni"   1
+"Dallas Love Field" "Robert Mueller Muni"   1
+"Robert Mueller Muni"   "San Antonio"  1
+"El Paso"  "Robert Mueller Muni"   1
+"Lubbock"  "Robert Mueller Muni"   1
+"Midland" "Robert Mueller Muni"   1
+"Robert Mueller Muni"   "Rio Grande Valley"    1
+"Chicago"   "James M Cox Dayton"   1
+"James M Cox Dayton"   "Dallas"    1
+"James M Cox Dayton"   "Los Angeles"  1
+"La Guardia"    "James M Cox Dayton"   1
+"Newark"   "James M Cox Dayton"   1
+"Detroit"    "James M Cox Dayton"   1
+"James M Cox Dayton"   "St Louis" 1
+"Minneapolis"    "James M Cox Dayton"   1
+"James M Cox Dayton"   "Orlando"  1
+"Pittsburgh"  "James M Cox Dayton"   1
+"James M Cox Dayton"   "Philadelphia" 1
+"James M Cox Dayton"   "Washington National"   1
+"James M Cox Dayton"   "Tampa"    1
+"James M Cox Dayton"   "Indianapolis" 1
+"James M Cox Dayton"   "Louisville"   1
+"Kent County"  "James M Cox Dayton"   1
+"Michiana Rgnl Transportation C"    "James M Cox Dayton"   1
+"Fort Wayne"  "James M Cox Dayton"   1
+"Capital City"  "James M Cox Dayton"   1
+"James M Cox Dayton"   "Evansville Regional"   1
+"Bishop"  "James M Cox Dayton"   1
+"Sacramento Metropolitan"   "John Wayne Airport-Orange Coun"    1
+"Chicago"   "Port Columbus"    1
+"Port Columbus"    "Dallas"    1
+"Port Columbus"    "Los Angeles"  1
+"John F Kennedy"   "Port Columbus"    1
+"Port Columbus"    "Denver"    1
+"La Guardia"    "Port Columbus"    1
+"Newark"   "Port Columbus"    1
+"Port Columbus"    "Phoenix"   1
+"Detroit"    "Port Columbus"    1
+"Port Columbus"    "St Louis" 1
+"Minneapolis"    "Port Columbus"    1
+"Port Columbus"    "Las Vegas"    1
+"Port Columbus"    "Orlando"  1
+"Pittsburgh"  "Port Columbus"    1
+"Port Columbus"    "Houston"  1
+"Port Columbus"    "Philadelphia" 1
+"Port Columbus"    "Washington National"   1
+"Port Columbus"    "Tampa"    1
+"Port Columbus"    "Cincinnati"    1
+"Chicago Midway"    "Port Columbus"    1
+"Port Columbus"    "Indianapolis" 1
+"Milwaukee"    "Port Columbus"    1
+"Port Columbus"    "James M Cox Dayton"   1
+"Southwest Florida"    "Miami"    1
+"St Louis" "Southwest Florida"    1
+"Tampa"    "Southwest Florida"    1
+"Sarasota/Bradenton"   "Southwest Florida"    1
+"Greater Buffalo"  "Chicago"   1
+"Greater Buffalo"  "John F Kennedy"   1
+"Greater Buffalo"  "La Guardia"    1
+"Greater Buffalo"  "Newark"   1
+"Greater Buffalo"  "Detroit"    1
+"Minneapolis"    "Greater Buffalo"  1
+"Greater Buffalo"  "Orlando"  1
+"Greater Buffalo"  "Pittsburgh"  1
+"Greater Buffalo"  "Philadelphia" 1
+"Greater Buffalo"  "Charlotte"    1
+"Greater Buffalo"  "Washington National"   1
+"Greater Buffalo"  "Baltimore-Washington" 1
+"Greater Buffalo"  "Washington Dulles"    1
+"Greater Buffalo"  "Raleigh-Durham"  1
+"Greater Buffalo"  "Cincinnati"    1
+"Greater Buffalo"  "Cleveland-Hopkins"    1
+"Syracuse Hancock" "Greater Buffalo"  1
+"Greater Rochester"    "Greater Buffalo"  1
+"Burbank-Glendale-Pasadena" "Dallas"    1
+"San Francisco"    "Burbank-Glendale-Pasadena" 1
+"Denver"    "Burbank-Glendale-Pasadena" 1
+"Burbank-Glendale-Pasadena" "Phoenix"   1
+"Las Vegas"    "Burbank-Glendale-Pasadena" 1
+"Seattle"   "Burbank-Glendale-Pasadena" 1
+"Salt Lake City"   "Burbank-Glendale-Pasadena" 1
+"Burbank-Glendale-Pasadena" "San Diego"  1
+"San Jose"    "Burbank-Glendale-Pasadena" 1
+"Portland" "Burbank-Glendale-Pasadena" 1
+"Metropolitan Oakland" "Burbank-Glendale-Pasadena" 1
+"Burbank-Glendale-Pasadena" "Ontario"  1
+"Sacramento Metropolitan"   "Burbank-Glendale-Pasadena" 1
+"Fresno Air Terminal"   "Burbank-Glendale-Pasadena" 1
+"Santa Barbara Muni"    "Burbank-Glendale-Pasadena" 1
+"Chicago"   "El Paso"  1
+"Los Angeles"  "El Paso"  1
+"San Francisco"    "El Paso"  1
+"Phoenix"   "El Paso"  1
+"Las Vegas"    "El Paso"  1
+"El Paso"  "Houston"  1
+"San Diego"  "El Paso"  1
+"El Paso"  "William P Hobby"   1
+"El Paso"  "San Antonio"  1
+"Lubbock"  "El Paso"  1
+"Midland" "El Paso"  1
+"Anchorage"    "Chicago"   1
+"Anchorage"    "Los Angeles"  1
+"Anchorage"    "San Francisco"    1
+"Anchorage"    "Detroit"    1
+"Anchorage"    "Honolulu" 1
+"Anchorage"    "Minneapolis"    1
+"Anchorage"    "Seattle"   1
+"Anchorage"    "Salt Lake City"   1
+"Anchorage"    "Portland" 1
+"Anchorage"    "Juneau"   1
+"Fairbanks"    "Anchorage"    1
+"Anchorage"    "Bethel"    1
+"Anchorage"    "Dillingham"    1
+"Ralph Wien Memorial"   "Anchorage"    1
+"Deadhorse" "Anchorage"    1
+"Nome"  "Anchorage"    1
+"Anchorage"    "Unalaska"  1
+"Anchorage"    "Merle K (Mudhole) Smith"   1
+"St Mary's" "Anchorage"    1
+"Anchorage"    "Cold Bay"  1
+"Anchorage"    "St Paul Island"    1
+"Anchorage"    "Port Heiden"   1
+"Chicago"   "Will Rogers World" 1
+"Will Rogers World" "Phoenix"   1
+"St Louis" "Will Rogers World" 1
+"Salt Lake City"   "Will Rogers World" 1
+"Tulsa"    "Will Rogers World" 1
+"Elko Muni-J.C. Harris Field"   "Will Rogers World" 1
+"Reno/Tahoe"  "San Francisco"    1
+"Seattle"   "Reno/Tahoe"  1
+"Salt Lake City"   "Reno/Tahoe"  1
+"Reno/Tahoe"  "San Diego"  1
+"Reno/Tahoe"  "San Jose"    1
+"Reno/Tahoe"  "Sacramento Metropolitan"   1
+"Elko Muni-J.C. Harris Field"   "Tulsa"    1
+"Chicago"   "Jacksonville" 1
+"Jacksonville" "Miami"    1
+"La Guardia"    "Jacksonville" 1
+"St Louis" "Jacksonville" 1
+"Jacksonville" "Orlando"  1
+"Pittsburgh"  "Jacksonville" 1
+"Philadelphia" "Jacksonville" 1
+"Raleigh-Durham"  "Jacksonville" 1
+"Jacksonville" "Palm Beach"   1
+"Savannah"    "Jacksonville" 1
+"Jacksonville" "Pensacola Regional"    1
+"Jacksonville" "Melbourne"   1
+"St Louis" "Norfolk"  1
+"Pittsburgh"  "Norfolk"  1
+"Philadelphia" "Norfolk"  1
+"Norfolk"  "Raleigh-Durham"  1
+"Cleveland-Hopkins"    "Norfolk"  1
+"Richmond"    "Norfolk"  1
+"Amarillo" "Tucson"   1
+"Lihue" "Kahului"   1
+"Bangor"   "Boston" 1
+"Bangor"   "Newark"   1
+"Bangor"   "Theodore Francis Green State"  1
+"Bangor"   "Portland Jetport" 1
+"Bangor"   "Manchester"    1
+"Greater Rochester"    "Syracuse Hancock" 1
+"Theodore Francis Green State"  "Raleigh-Durham"  1
+"Albany County" "Chicago"   1
+"Albany County" "Atlanta"    1
+"Albany County" "La Guardia"    1
+"Albany County" "Detroit"    1
+"Albany County" "Pittsburgh"  1
+"Albany County" "Philadelphia" 1
+"Albany County" "Charlotte"    1
+"Albany County" "Washington National"   1
+"Albany County" "Baltimore-Washington" 1
+"Albany County" "Raleigh-Durham"  1
+"Albany County" "Cincinnati"    1
+"Greater Buffalo"  "Albany County" 1
+"Portland Jetport" "Albany County" 1
+"Albany County" "Stewart Int'l" 1
+"Saipan"   "Guam"    1
+"Guam"    "Babelthuap/Koror"  1
+"Rota" "Guam"    1
+"Chicago"   "Birmingham"   1
+"Birmingham"   "Dallas"    1
+"St Louis" "Birmingham"   1
+"Birmingham"   "Orlando"  1
+"Pittsburgh"  "Birmingham"   1
+"Charlotte"    "Birmingham"   1
+"Cincinnati"    "Birmingham"   1
+"Memphis"  "Birmingham"   1
+"Birmingham"   "William P Hobby"   1
+"Nashville"   "Birmingham"   1
+"Birmingham"   "New Orleans" 1
+"Louisville"   "Birmingham"   1
+"Huntsville-Carl T Jones F"    "Birmingham"   1
+"Birmingham"   "Jackson" 1
+"Birmingham"   "Shreveport Regional"   1
+"Birmingham"   "Dannelly Field"    1
+"St Louis" "Louisville"   1
+"Chicago"   "Eppley Airfield"   1
+"Eppley Airfield"   "Phoenix"   1
+"Eppley Airfield"   "St Louis" 1
+"Eppley Airfield"   "Pittsburgh"  1
+"Eppley Airfield"   "Salt Lake City"   1
+"Eppley Airfield"   "Lincoln Muni"  1
+"Dallas"    "Sarasota/Bradenton"   1
+"Sarasota/Bradenton"   "Miami"    1
+"La Guardia"    "Sarasota/Bradenton"   1
+"St Louis" "Sarasota/Bradenton"   1
+"Tampa"    "Sarasota/Bradenton"   1
+"Los Angeles"  "Keahole-Kona"    1
+"San Francisco"    "Keahole-Kona"    1
+"Kahului"   "Keahole-Kona"    1
+"Lihue" "Keahole-Kona"    1
+"St Louis" "Adams Field"   1
+"Memphis"  "Adams Field"   1
+"Tulsa"    "Adams Field"   1
+"Springfield Regional"  "Adams Field"   1
+"Richmond"    "Roanoke Regional/Woodrum Field"    1
+"Chicago"   "Piedmont Triad"  1
+"La Guardia"    "Piedmont Triad"  1
+"Piedmont Triad"  "Orlando"  1
+"Pittsburgh"  "Piedmont Triad"  1
+"Philadelphia" "Piedmont Triad"  1
+"Washington Dulles"    "Piedmont Triad"  1
+"Piedmont Triad"  "Raleigh-Durham"  1
+"Roanoke Regional/Woodrum Field"    "Piedmont Triad"  1
+"Spokane"  "Chicago"   1
+"Spokane"  "San Francisco"    1
+"Spokane"  "Minneapolis"    1
+"Spokane"  "Seattle"   1
+"Spokane"  "Salt Lake City"   1
+"Spokane"  "Portland" 1
+"Spokane"  "Missoula"    1
+"Spokane"  "Great Falls"  1
+"Spokane"  "Helena Regional"   1
+"Spokane"  "Lewiston-Nez Perce County" 1
+"Spokane"  "Pullman/Moscow Regional"   1
+"Chicago"   "Des Moines"   1
+"Des Moines"   "Phoenix"   1
+"Des Moines"   "St Louis" 1
+"Minneapolis"    "Des Moines"   1
+"Des Moines"   "Pittsburgh"  1
+"Des Moines"   "Eppley Airfield"   1
+"Des Moines"   "Elko Muni-J.C. Harris Field"   1
+"Kent County"  "Chicago"   1
+"Minneapolis"    "Kent County"  1
+"Kent County"  "Pittsburgh"  1
+"Kent County"  "Indianapolis" 1
+"Milwaukee"    "Kent County"  1
+"San Francisco"    "Long Beach /Daugherty Field/"  1
+"Long Beach /Daugherty Field/"  "Phoenix"   1
+"Metropolitan Oakland" "Long Beach /Daugherty Field/"  1
+"Santa Barbara Muni"    "Long Beach /Daugherty Field/"  1
+"Chicago"   "Charleston Afb/Intl"   1
+"La Guardia"    "Charleston Afb/Intl"   1
+"Newark"   "Charleston Afb/Intl"   1
+"Charlotte"    "Charleston Afb/Intl"   1
+"Washington National"   "Charleston Afb/Intl"   1
+"Washington Dulles"    "Charleston Afb/Intl"   1
+"Raleigh-Durham"  "Charleston Afb/Intl"   1
+"Charleston Afb/Intl"   "Jacksonville" 1
+"Charleston Afb/Intl"   "Savannah"    1
+"Kahului"   "Hilo"    1
+"Keahole-Kona"    "Hilo"    1
+"Boise Air Terminal /Gowen Fld/"    "Chicago"   1
+"Boise Air Terminal /Gowen Fld/"    "Los Angeles"  1
+"Boise Air Terminal /Gowen Fld/"    "San Francisco"    1
+"Boise Air Terminal /Gowen Fld/"    "Denver"    1
+"Seattle"   "Boise Air Terminal /Gowen Fld/"    1
+"Boise Air Terminal /Gowen Fld/"    "Salt Lake City"   1
+"Portland" "Boise Air Terminal /Gowen Fld/"    1
+"Spokane"  "Boise Air Terminal /Gowen Fld/"    1
+"Tri-Cities"    "Boise Air Terminal /Gowen Fld/"    1
+"Boise Air Terminal /Gowen Fld/"    "Fanning Field" 1
+"Lewiston-Nez Perce County" "Boise Air Terminal /Gowen Fld/"    1
+"Boise Air Terminal /Gowen Fld/"    "Friedman Memorial" 1
+"Boise Air Terminal /Gowen Fld/"    "Twin Falls-Sun Valley Regional"    1
+"Pullman/Moscow Regional"   "Boise Air Terminal /Gowen Fld/"    1
+"Boise Air Terminal /Gowen Fld/"    "Pocatello Regional"    1
+"Chicago"   "Harrisburg"  1
+"Pittsburgh"  "Harrisburg"  1
+"Harrisburg"  "Raleigh-Durham"  1
+"University Park"   "Harrisburg"  1
+"Chicago"   "City Of Colorado Springs Muni" 1
+"City Of Colorado Springs Muni" "Dallas"    1
+"Denver"    "City Of Colorado Springs Muni" 1
+"City Of Colorado Springs Muni" "Phoenix"   1
+"City Of Colorado Springs Muni" "St Louis" 1
+"City Of Colorado Springs Muni" "Las Vegas"    1
+"Salt Lake City"   "City Of Colorado Springs Muni" 1
+"City Of Colorado Springs Muni" "Pueblo Memorial"   1
+"La Guardia"    "Greenville-Spartanburg"    1
+"Philadelphia" "Greenville-Spartanburg"    1
+"Raleigh-Durham"  "Greenville-Spartanburg"    1
+"Chicago"   "Wichita Mid-Continent" 1
+"Wichita Mid-Continent" "Phoenix"   1
+"St Louis" "Wichita Mid-Continent" 1
+"Wichita Mid-Continent" "Las Vegas"    1
+"Pittsburgh"  "Wichita Mid-Continent" 1
+"Wichita Mid-Continent" "Memphis"  1
+"Kansas City"  "Wichita Mid-Continent" 1
+"Wichita Mid-Continent" "Tulsa"    1
+"Wichita Mid-Continent" "Springfield Regional"  1
+"Elko Muni-J.C. Harris Field"   "Wichita Mid-Continent" 1
+"Cyril E King"  "Alexander Hamilton"    1
+"Chicago"   "Long Island Mac Arthur"    1
+"Long Island Mac Arthur"    "Miami"    1
+"Long Island Mac Arthur"    "Orlando"  1
+"Long Island Mac Arthur"    "Pittsburgh"  1
+"Long Island Mac Arthur"    "Philadelphia" 1
+"Long Island Mac Arthur"    "Raleigh-Durham"  1
+"Long Island Mac Arthur"    "Palm Beach"   1
+"Syracuse Hancock" "Long Island Mac Arthur"    1
+"Long Island Mac Arthur"    "Atlantic City"   1
+"Chicago"   "Columbia Metropolitan" 1
+"Newark"   "Columbia Metropolitan" 1
+"Philadelphia" "Columbia Metropolitan" 1
+"Charlotte"    "Columbia Metropolitan" 1
+"Raleigh-Durham"  "Columbia Metropolitan" 1
+"Piedmont Triad"  "Columbia Metropolitan" 1
+"Columbia Metropolitan" "Charleston Afb/Intl"   1
+"Dane County Regional-Truax Fie"    "Chicago"   1
+"Dane County Regional-Truax Fie"    "St Louis" 1
+"Minneapolis"    "Dane County Regional-Truax Fie"    1
+"Dane County Regional-Truax Fie"    "Pittsburgh"  1
+"Outagamie County"  "Dane County Regional-Truax Fie"    1
+"Houston"  "Rio Grande Valley"    1
+"San Antonio"  "Rio Grande Valley"    1
+"Savannah"    "Cyril E King"  1
+"Newark"   "Daytona Beach"    1
+"Daytona Beach"    "Orlando"  1
+"Raleigh-Durham"  "Daytona Beach"    1
+"Jacksonville" "Daytona Beach"    1
+"Daytona Beach"    "Melbourne"   1
+"Saipan"   "West Tinian"   1
+"Chicago"   "Huntsville-Carl T Jones F"    1
+"Washington Dulles"    "Huntsville-Carl T Jones F"    1
+"Memphis"  "Huntsville-Carl T Jones F"    1
+"Dallas"    "Corpus Christi"   1
+"Houston"  "Corpus Christi"   1
+"William P Hobby"   "Corpus Christi"   1
+"Fresno Air Terminal"   "Los Angeles"  1
+"San Francisco"    "Fresno Air Terminal"   1
+"Salt Lake City"   "Fresno Air Terminal"   1
+"Fresno Air Terminal"   "San Diego"  1
+"Metropolitan Oakland" "Fresno Air Terminal"   1
+"Fresno Air Terminal"   "Ontario"  1
+"Fresno Air Terminal"   "John Wayne Airport-Orange Coun"    1
+"Sacramento Metropolitan"   "Fresno Air Terminal"   1
+"Reno/Tahoe"  "Fresno Air Terminal"   1
+"Modesto City-County--Harry Sha"    "Fresno Air Terminal"   1
+"Merced Municipal/Macready Fiel"    "Fresno Air Terminal"   1
+"Mammoth Lakes" "Fresno Air Terminal"   1
+"Tallahassee Regional"  "Tampa"    1
+"Chicago"   "Amarillo" 1
+"Amarillo" "Dallas"    1
+"Amarillo" "Dallas Love Field" 1
+"Amarillo" "Lubbock"  1
+"Elko Muni-J.C. Harris Field"   "Amarillo" 1
+"San Francisco"    "Palm Springs Regional" 1
+"St Louis" "Palm Springs Regional" 1
+"Salt Lake City"   "Palm Springs Regional" 1
+"San Jose"    "Palm Springs Regional" 1
+"Palm Springs Regional" "Tucson"   1
+"Dallas"    "Baton Rouge Metropolitan, Ryan"    1
+"Baton Rouge Metropolitan, Ryan"    "Houston"  1
+"Memphis"  "Baton Rouge Metropolitan, Ryan"    1
+"Jackson" "Baton Rouge Metropolitan, Ryan"    1
+"Mobile Regional"   "Baton Rouge Metropolitan, Ryan"    1
+"Shreveport Regional"   "Baton Rouge Metropolitan, Ryan"    1
+"Pensacola Regional"    "Tampa"    1
+"Chicago"   "Lehigh Valley"   1
+"Lehigh Valley"   "Atlanta"    1
+"Detroit"    "Lehigh Valley"   1
+"Lehigh Valley"   "Pittsburgh"  1
+"Lehigh Valley"   "Charlotte"    1
+"Lehigh Valley"   "Raleigh-Durham"  1
+"Lehigh Valley"   "Harrisburg"  1
+"Burlington"   "Chicago"   1
+"Burlington"   "La Guardia"    1
+"Burlington"   "Newark"   1
+"Burlington"   "Pittsburgh"  1
+"Burlington"   "Philadelphia" 1
+"Burlington"   "Washington Dulles"    1
+"Burlington"   "Manchester"    1
+"Jackson" "Mobile Regional"   1
+"Shreveport Regional"   "Jackson" 1
+"Chicago"   "Cedar Rapids Muni" 1
+"Cedar Rapids Muni" "Denver"    1
+"Cedar Rapids Muni" "Phoenix"   1
+"Cedar Rapids Muni" "St Louis" 1
+"Minneapolis"    "Cedar Rapids Muni" 1
+"Cedar Rapids Muni" "Quad-City" 1
+"Sioux Gateway" "Cedar Rapids Muni" 1
+"Chicago"   "Blue Grass"    1
+"St Louis" "Blue Grass"    1
+"Pittsburgh"  "Blue Grass"    1
+"Louisville"   "Blue Grass"    1
+"Blue Grass"    "Mc Ghee Tyson" 1
+"Blue Grass"    "Roanoke Regional/Woodrum Field"    1
+"Michiana Rgnl Transportation C"    "St Louis" 1
+"Mobile Regional"   "Pensacola Regional"    1
+"Monroe Regional"   "Mobile Regional"   1
+"Detroit City"  "St Louis" 1
+"Detroit City"  "Chicago Midway"    1
+"Detroit City"  "Indianapolis" 1
+"Manchester"    "Chicago"   1
+"Manchester"    "Pittsburgh"  1
+"Manchester"    "Philadelphia" 1
+"Boston" "Atlantic City"   1
+"Detroit"    "Atlantic City"   1
+"Pittsburgh"  "Atlantic City"   1
+"Cleveland-Hopkins"    "Atlantic City"   1
+"Theodore Francis Green State"  "Atlantic City"   1
+"Melbourne"   "Tampa"    1
+"Raleigh-Durham"  "Melbourne"   1
+"Melbourne"   "Southwest Florida"    1
+"Chicago"   "Westchester County"    1
+"Minneapolis"    "Westchester County"    1
+"Westchester County"    "Pittsburgh"  1
+"Tweed-New Haven"   "Westchester County"    1
+"Chicago"   "Akron-Canton Regional" 1
+"Akron-Canton Regional" "Philadelphia" 1
+"Akron-Canton Regional" "Charlotte"    1
+"Akron-Canton Regional" "Washington Dulles"    1
+"Akron-Canton Regional" "Indianapolis" 1
+"Akron-Canton Regional" "James M Cox Dayton"   1
+"Fort Wayne"  "Akron-Canton Regional" 1
+"Youngstown-Warren Regional"    "Akron-Canton Regional" 1
+"Chicago"   "Fort Wayne"  1
+"Fort Wayne"  "Pittsburgh"  1
+"Michiana Rgnl Transportation C"    "Fort Wayne"  1
+"Toledo Express"    "Fort Wayne"  1
+"Shreveport Regional"   "Mobile Regional"   1
+"Chicago"   "Quad-City" 1
+"Quad-City" "Phoenix"   1
+"Quad-City" "St Louis" 1
+"Quad-City" "Greater Peoria Regional"   1
+"San Francisco"    "Santa Barbara Muni"    1
+"Meadows Field" "Santa Barbara Muni"    1
+"Juneau"   "Seattle"   1
+"Juneau"   "Ketchikan"    1
+"Juneau"   "Sitka" 1
+"Juneau"   "James A Johnson Petersburg"    1
+"Yakutat"   "Juneau"   1
+"Charlotte"    "Lovell Field"  1
+"Fairbanks"    "Seattle"   1
+"Fairbanks"    "Juneau"   1
+"Deadhorse" "Fairbanks"    1
+"Wiley Post-Will Rogers Mem"    "Fairbanks"    1
+"Mahlon Sweet Field"    "San Francisco"    1
+"Seattle"   "Mahlon Sweet Field"    1
+"Portland" "Mahlon Sweet Field"    1
+"Mahlon Sweet Field"    "Rogue Valley- M"  1
+"Roberts Field" "Mahlon Sweet Field"    1
+"Mahlon Sweet Field"    "Redding Muni"  1
+"Mahlon Sweet Field"    "Klamath Falls"   1
+"Mahlon Sweet Field"    "North Bend Muni"   1
+"Austin Straubel" "Chicago"   1
+"Minneapolis"    "Austin Straubel" 1
+"Austin Straubel" "Dane County Regional-Truax Fie"    1
+"Marquette County"  "Austin Straubel" 1
+"Austin Straubel" "Wittman Regional"  1
+"Billings Logan"   "Denver"    1
+"Billings Logan"   "Minneapolis"    1
+"Billings Logan"   "Salt Lake City"   1
+"Spokane"  "Billings Logan"   1
+"Missoula"    "Billings Logan"   1
+"Billings Logan"   "Gallatin Field"    1
+"Great Falls"  "Billings Logan"   1
+"Glacier Park" "Billings Logan"   1
+"Helena Regional"   "Billings Logan"   1
+"Bert Mooney"   "Billings Logan"   1
+"John F Kennedy"   "Alexander Hamilton"    1
+"Miami"    "Alexander Hamilton"    1
+"Newark"   "Alexander Hamilton"    1
+"Orlando"  "Alexander Hamilton"    1
+"Raleigh-Durham"  "Alexander Hamilton"    1
+"Savannah"    "Alexander Hamilton"    1
+"Capital City"  "Chicago"   1
+"Capital City"  "Pittsburgh"  1
+"Capital City"  "Fort Wayne"  1
+"Asheville Regional"    "Charlotte"    1
+"Pittsburgh"  "Myrtle Beach" 1
+"Philadelphia" "Myrtle Beach" 1
+"Raleigh-Durham"  "Myrtle Beach" 1
+"Kalamazoo/Battle Creek Interna"    "Chicago"   1
+"Kalamazoo/Battle Creek Interna"    "Detroit"    1
+"Minneapolis"    "Kalamazoo/Battle Creek Interna"    1
+"Kalamazoo/Battle Creek Interna"    "Pittsburgh"  1
+"Kalamazoo/Battle Creek Interna"    "James M Cox Dayton"   1
+"Austin Straubel" "Kalamazoo/Battle Creek Interna"    1
+"Capital City"  "Kalamazoo/Battle Creek Interna"    1
+"Wilkes-Barre/Scranton"    "Pittsburgh"  1
+"Wilkes-Barre/Scranton"    "Charlotte"    1
+"Wilkes-Barre/Scranton"    "Baltimore-Washington" 1
+"Chicago"   "Lincoln Muni"  1
+"Lincoln Muni"  "St Louis" 1
+"Joe Foss Field"    "Lincoln Muni"  1
+"Sioux Gateway" "Lincoln Muni"  1
+"San Francisco"    "Monterey Peninsula"    1
+"Joe Foss Field"    "Chicago"   1
+"Joe Foss Field"    "St Louis" 1
+"Minneapolis"    "Joe Foss Field"    1
+"Joe Foss Field"    "Salt Lake City"   1
+"Joe Foss Field"    "Quad-City" 1
+"Rapid City Regional"   "Joe Foss Field"    1
+"Pittsburgh"  "Yeager"    1
+"Yeager"    "Blue Grass"    1
+"Mbs" "Chicago"   1
+"Chicago"   "Evansville Regional"   1
+"St Louis" "Evansville Regional"   1
+"Pittsburgh"  "Evansville Regional"   1
+"Indianapolis" "Evansville Regional"   1
+"Atlanta"    "Bush Field"    1
+"Charlotte"    "Bush Field"    1
+"Columbia Metropolitan" "Bush Field"    1
+"Bush Field"    "Savannah"    1
+"St Louis" "Springfield Regional"  1
+"Greater Peoria Regional"   "St Louis" 1
+"Chicago"   "Aspen-Pitkin Co/Sardy Field"   1
+"Aspen-Pitkin Co/Sardy Field"   "Dallas"    1
+"Aspen-Pitkin Co/Sardy Field"   "Los Angeles"  1
+"Denver"    "Aspen-Pitkin Co/Sardy Field"   1
+"Hector"  "Chicago"   1
+"Hector"  "Minneapolis"    1
+"Hector"  "Joe Foss Field"    1
+"Dannelly Field"    "Baton Rouge Metropolitan, Ryan"    1
+"Monroe Regional"   "Dannelly Field"    1
+"Piedmont Triad"  "Fayetteville Regional/Grannis" 1
+"Chicago"   "University Of Illinois-Willard"    1
+"University Of Illinois-Willard"    "St Louis" 1
+"Pittsburgh"  "University Of Illinois-Willard"    1
+"University Of Illinois-Willard"    "James M Cox Dayton"   1
+"Greater Peoria Regional"   "University Of Illinois-Willard"    1
+"University Of Illinois-Willard"    "Hulman Regional"   1
+"Binghamton Regional/Edwin A Li"    "Pittsburgh"  1
+"Binghamton Regional/Edwin A Li"    "Baltimore-Washington" 1
+"Outagamie County"  "Chicago"   1
+"Outagamie County"  "Milwaukee"    1
+"Austin Straubel" "Outagamie County"  1
+"Central Wisconsin" "Outagamie County"  1
+"Outagamie County"  "Wittman Regional"  1
+"Philadelphia" "New Hanover" 1
+"Raleigh-Durham"  "New Hanover" 1
+"Erie" "Pittsburgh"  1
+"Rapid City Regional"   "Salt Lake City"   1
+"Seattle"   "Tri-Cities"    1
+"Tri-Cities"    "Salt Lake City"   1
+"Spokane"  "Tri-Cities"    1
+"Pullman/Moscow Regional"   "Tri-Cities"    1
+"Bishop"  "Chicago"   1
+"Bishop"  "Pittsburgh"  1
+"Bishop"  "Capital City"  1
+"Rogue Valley- M"  "San Francisco"    1
+"Portland" "Rogue Valley- M"  1
+"Rochester"   "La Crosse Muni"    1
+"Worcester Muni"    "Pittsburgh"  1
+"Worcester Muni"    "Philadelphia" 1
+"Pittsburgh"  "Newport News/Williamsburg Inte"    1
+"Jackson Hole"  "Chicago"   1
+"Jackson Hole"  "Salt Lake City"   1
+"Jackson Hole"  "Fanning Field" 1
+"Missoula"    "Minneapolis"    1
+"Missoula"    "Salt Lake City"   1
+"Meadows Field" "Dallas"    1
+"San Francisco"    "Meadows Field" 1
+"Sacramento Metropolitan"   "Meadows Field" 1
+"St Louis" "Drake Field"   1
+"Charlottesville-Albemarle" "Charlotte"    1
+"Washington Dulles"    "Charlottesville-Albemarle" 1
+"Charlottesville-Albemarle" "Richmond"    1
+"Bismarck Muni" "Denver"    1
+"Bismarck Muni" "Minneapolis"    1
+"Bismarck Muni" "Salt Lake City"   1
+"Bismarck Muni" "Joe Foss Field"    1
+"Minot"    "Bismarck Muni" 1
+"Gallatin Field"    "Denver"    1
+"Gallatin Field"    "Minneapolis"    1
+"Gallatin Field"    "Salt Lake City"   1
+"Spokane"  "Gallatin Field"    1
+"Missoula"    "Gallatin Field"    1
+"Great Falls"  "Gallatin Field"    1
+"Helena Regional"   "Gallatin Field"    1
+"Ketchikan"    "Seattle"   1
+"Sitka" "Ketchikan"    1
+"Wrangell"  "Ketchikan"    1
+"Duluth"   "Minneapolis"    1
+"Central Wisconsin" "Chicago"   1
+"Central Wisconsin" "Austin Straubel" 1
+"Marquette County"  "Central Wisconsin" 1
+"Fanning Field" "Dallas"    1
+"Fanning Field" "Salt Lake City"   1
+"Fanning Field" "Pocatello Regional"    1
+"Capital"   "St Louis" 1
+"Dallas"    "Jefferson County"  1
+"Great Falls"  "Minneapolis"    1
+"Great Falls"  "Salt Lake City"   1
+"Great Falls"  "Missoula"    1
+"Great Falls"  "Helena Regional"   1
+"Elmira/Corning Regional"   "Pittsburgh"  1
+"Tompkins County"   "Elmira/Corning Regional"   1
+"Sioux Gateway" "Chicago"   1
+"Joe Foss Field"    "Sioux Gateway" 1
+"Tompkins County"   "Pittsburgh"  1
+"Bellingham"   "Seattle"   1
+"Bellingham"   "Portland" 1
+"Bellingham"   "Elko Muni-J.C. Harris Field"   1
+"St Mary's" "Bethel"    1
+"Aniak" "Bethel"    1
+"Bethel"    "Quinhagak" 1
+"Bethel"    "Eek"   1
+"Bethel"    "Tuntutuliak"   1
+"Kwethluk"  "Bethel"    1
+"Bethel"    "Kwigillingok"  1
+"Bethel"    "Kongiganak"    1
+"Akiachak"  "Bethel"    1
+"Tuluksak"  "Bethel"    1
+"Bethel"    "Napaskiak" 1
+"Bethel"    "Napakiak"  1
+"Monroe Regional"   "Pensacola Regional"    1
+"Monroe Regional"   "Jackson" 1
+"Monroe Regional"   "Shreveport Regional"   1
+"St Louis" "Fort Smith Regional"   1
+"Drake Field"   "Fort Smith Regional"   1
+"La Crosse Muni"    "Chicago"   1
+"Minneapolis"    "La Crosse Muni"    1
+"Durango-La Plata County"   "Phoenix"   1
+"Pittsburgh"  "Tri-State/Milton J.Ferguson Fi"    1
+"Grand Forks"  "Minneapolis"    1
+"Minot"    "Minneapolis"    1
+"San Francisco"    "San Luis Obispo County-Mc Ches"    1
+"San Luis Obispo County-Mc Ches"    "Santa Maria Pub/Capt G Allan H"    1
+"Dallas"    "Easterwood Field"  1
+"Seattle"   "Elko Muni-J.C. Harris Field"   1
+"Elko Muni-J.C. Harris Field"   "Salt Lake City"   1
+"Portland" "Elko Muni-J.C. Harris Field"   1
+"Spokane"  "Elko Muni-J.C. Harris Field"   1
+"Rapid City Regional"   "Elko Muni-J.C. Harris Field"   1
+"William B. Heilig Field"   "Elko Muni-J.C. Harris Field"   1
+"Luis Munoz Marin" "Eugenio Maria De Hostos"   1
+"Natrona County"   "Salt Lake City"   1
+"Rapid City Regional"   "Natrona County"   1
+"Anchorage"    "Kodiak"    1
+"Yakima Air Terminal"   "Tri-Cities"    1
+"Glacier Park" "Salt Lake City"   1
+"Glacier Park" "Spokane"  1
+"Glacier Park" "Missoula"    1
+"Glacier Park" "Great Falls"  1
+"Glacier Park" "Helena Regional"   1
+"Roberts Field" "San Francisco"    1
+"William R Fairchild"  "Seattle"   1
+"Arcata"    "San Francisco"    1
+"Arcata"    "Sacramento Metropolitan"   1
+"Jack Mc Namara Field"  "Arcata"    1
+"Redding Muni"  "San Francisco"    1
+"Portland" "Redding Muni"  1
+"Mcnary Fld"    "Redding Muni"  1
+"Dallas"    "Abilene Regional"  1
+"Chicago"   "Bloomington/Normal"    1
+"Bloomington/Normal"    "St Louis" 1
+"Bloomington/Normal"    "Decatur"   1
+"Bloomington/Normal"    "Hulman Regional"   1
+"Stockton Metropolitan" "San Francisco"    1
+"Waterloo Muni" "Chicago"   1
+"Waterloo Muni" "St Louis" 1
+"Waterloo Muni" "Cedar Rapids Muni" 1
+"Waterloo Muni" "Dubuque Regional"  1
+"Kahului"   "Lanai" 1
+"Molokai"   "Lanai" 1
+"Muskegon County"   "Chicago"   1
+"Sitka" "Seattle"   1
+"Helena Regional"   "Salt Lake City"   1
+"Missoula"    "Helena Regional"   1
+"Gunnison County"   "Houston"  1
+"Flagstaff Pulliam" "Phoenix"   1
+"Chicago"   "Yampa Valley"  1
+"Yampa Valley"  "Los Angeles"  1
+"Minneapolis"    "Yampa Valley"  1
+"Yampa Valley"  "Houston"  1
+"Yampa Valley"  "San Jose"    1
+"Ralph Wien Memorial"   "Nome"  1
+"Chicago"   "Decatur"   1
+"Decatur"   "St Louis" 1
+"Anchorage"    "King Salmon"   1
+"Dillingham"    "King Salmon"   1
+"Chicago"   "Tweed-New Haven"   1
+"Dallas"    "Waco Regional" 1
+"Seattle"   "Lewiston-Nez Perce County" 1
+"Lewiston-Nez Perce County" "Portland" 1
+"Lewiston-Nez Perce County" "Tri-Cities"    1
+"Yakima Air Terminal"   "Lewiston-Nez Perce County" 1
+"Pullman/Moscow Regional"   "Lewiston-Nez Perce County" 1
+"Columbia Regional" "St Louis" 1
+"Gregg County"  "Tyler Pounds Field"    1
+"Marquette County"  "Chicago"   1
+"Marquette County"  "Cherry Capital"    1
+"Seattle"   "Pullman/Moscow Regional"   1
+"Dubuque Regional"  "Chicago"   1
+"Seattle"   "Pangborn Memorial" 1
+"Pangborn Memorial" "Portland" 1
+"Pangborn Memorial" "Grant County"  1
+"Saipan"   "Babelthuap/Koror"  1
+"Spokane"  "Bert Mooney"   1
+"Missoula"    "Bert Mooney"   1
+"Bert Mooney"   "Gallatin Field"    1
+"Glacier Park" "Bert Mooney"   1
+"Helena Regional"   "Bert Mooney"   1
+"St Louis" "Barkley Regional"  1
+"St Louis" "Joplin Regional"   1
+"Springfield Regional"  "Joplin Regional"   1
+"Saipan"   "Rota" 1
+"Pocatello Regional"    "Twin Falls-Sun Valley Regional"    1
+"Chicago"   "Purdue University" 1
+"Wiley Post-Will Rogers Mem"    "Anchorage"    1
+"Wiley Post-Will Rogers Mem"    "Deadhorse" 1
+"Modesto City-County--Harry Sha"    "San Francisco"    1
+"Merrill C Meigs"   "Capital"   1
+"Merle K (Mudhole) Smith"   "Yakutat"   1
+"Chicago"   "Burlington Regional"   1
+"Burlington Regional"   "St Louis" 1
+"Quad-City" "Burlington Regional"   1
+"Burlington Regional"   "Greater Peoria Regional"   1
+"Portland" "Klamath Falls"   1
+"Rogue Valley- M"  "Klamath Falls"   1
+"Roberts Field" "Klamath Falls"   1
+"Klamath Falls"   "Redding Muni"  1
+"Mcnary Fld"    "Klamath Falls"   1
+"Seattle"   "Walla Walla Regional"  1
+"Walla Walla Regional"  "Portland" 1
+"Tri-Cities"    "Walla Walla Regional"  1
+"Yakima Air Terminal"   "Walla Walla Regional"  1
+"Lewiston-Nez Perce County" "Walla Walla Regional"  1
+"Pullman/Moscow Regional"   "Walla Walla Regional"  1
+"Walla Walla Regional"  "Eastern Oregon Regional At Pen"    1
+"Grant County"  "Walla Walla Regional"  1
+"Sitka" "James A Johnson Petersburg"    1
+"James A Johnson Petersburg"    "Wrangell"  1
+"Luis Munoz Marin" "Mercedita" 1
+"Portland" "North Bend Muni"   1
+"Mcnary Fld"    "North Bend Muni"   1
+"Greenbrier Valley" "Raleigh-Durham"  1
+"Chico Muni"    "San Francisco"    1
+"Quad-City" "Quincy Muni Baldwin Field" 1
+"St Louis" "Williamson County Regional"    1
+"Purdue University" "Hulman Regional"   1
+"St Mary's" "Aniak" 1
+"Aniak" "Anchorage"    1
+"Anchorage"    "Adak Naf"  1
+"Unalaska"  "Adak Naf"  1
+"Eareckson As"  "Adak Naf"  1
+"Gustavus"  "Juneau"   1
+"Cold Bay"  "Unalaska"  1
+"St Paul Island"    "Cold Bay"  1
+"John F Kennedy"   "Rafael Hernandez"  1
+"Miami"    "Rafael Hernandez"  1
+"Newark"   "Rafael Hernandez"  1
+"Rafael Hernandez"  "Mercedita" 1
+"St Louis" "Cape Girardeau Regional"   1
+"Williamson County Regional"    "Cape Girardeau Regional"   1
+"Eastern Oregon Regional At Pen"    "Portland" 1
+"Tri-Cities"    "Eastern Oregon Regional At Pen"    1
+"Chicago"   "Eagle County Regional" 1
+"Eagle County Regional" "Phoenix"   1
+"Salt Lake City"   "Eagle County Regional" 1
+"San Francisco"    "Merced Municipal/Macready Fiel"    1
+"Seattle"   "Grant County"  1
+"Grant County"  "Yakima Air Terminal"   1
+"Anchorage"    "Eareckson As"  1
+"Anchorage"    "Sand Point"    1
+"Jack Mc Namara Field"  "San Francisco"    1
+"Tuntutuliak"   "Kongiganak"    1
+"Tuntutuliak"   "Kwigillingok"  1
+"Kongiganak"    "Kwigillingok"  1
+"Port Heiden"   "Sand Point"    1
+"Akiachak"  "Kwethluk"  1
+"Tuluksak"  "Akiachak"  1
+"Tuluksak"  "Kwethluk"  1
+"Akiak" "Bethel"    1
+"Akiachak"  "Akiak" 1
+"Tuluksak"  "Akiak" 1
+"Kapalua"   "Kahului"   1
+"Kapalua"   "Lanai" 1

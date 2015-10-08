@@ -1,0 +1,283 @@
+/*
+Bertifier, crafting tabular visualizations, v1
+(c) 2014-2014, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+body{
+  font-family: "RobotoCondensed-Regular";
+}
+
+
+/*-------------------------------------------
+                GLOBAL
+-------------------------------------------*/
+.ui-tooltip, .arrow:after {
+    background: white;
+    border: 1px solid black;
+}
+.ui-tooltip {
+    padding: 2px 5px;
+    black: white;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+
+/*-------------------------------------------
+                GLOBAL
+-------------------------------------------*/
+svg{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+svg:text{
+  cursor: default;
+}
+
+
+
+/*-------------------------------------------
+                LOADING
+-------------------------------------------*/
+#loading{
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  top: 100px;
+  left:50%;
+  margin-left: -50px;
+}
+
+
+/*-------------------------------------------
+                TIMELINE and MENU
+-------------------------------------------*/
+#svg-timeline .timeline-bkg{
+  fill: white;
+  stroke-width: 1;
+  stroke: black;
+}
+#svg-timeline .nav-arrow:hover, #svg-timeline .step-group:hover{
+  cursor: pointer;
+}
+#svg-timeline .step-group .step-bkg{
+  fill: white;
+  stroke-width: 1;
+  stroke: black;
+}
+#svg-timeline .step-group .step-title{
+  text-anchor: middle;
+}
+#svg-timeline .nav-arrow .arrow-path{
+  fill: white;
+  stroke: black;
+}
+.menu .defineScale-panel .axis .domain{
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+.menu .defineScale-panel .axis .tick line{
+  stroke: black;
+  stroke-width: 1px;
+}
+
+
+
+
+/*-------------------------------------------
+                MENUS
+-------------------------------------------*/
+.menu .button-auto rect{
+  fill: lightgray;
+  stroke-width: 2px;
+  stroke: black;
+}
+.menu .button-auto text{
+  fill: black;
+  stroke: none;
+  text-anchor: middle;
+}
+.menu .button-auto:hover text{
+  fill: white;
+}
+.menu .button-auto:hover rect{
+  fill: black;
+  stroke: lightgray;
+}
+.menu .button-auto:hover{
+  cursor: pointer;
+}
+
+
+/*-------------------------------------------
+                MATRICES
+-------------------------------------------*/
+
+rect.frame{
+  stroke:none;
+  fill: white;
+}
+
+.cell{
+  fill:white;
+  stroke:black;
+}
+.cell .value{
+  fill:black;
+  stroke: none;
+}
+.cell .bkg{
+  stroke: black;
+  stroke-width: 1;
+}
+.cell.header .bkg{
+  stroke: none;
+}
+
+
+
+
+/*-------------------------------------------
+               MATRIX RAW TABLE
+-------------------------------------------*/
+
+.settings .bkg{
+  stroke: black;
+  stroke-width: 0;
+  fill: white;
+}
+.settings text, textarea.row-settings{
+  font-size: 9px;
+}
+.settings text:hover{
+  cursor: pointer;
+}
+.settings text.selected{
+  font-weight: bold;
+  font-size: 11px;
+}
+.settings .encoding rect, .row-settings .encoding circle{
+  fill: white;
+  stroke-width: 1;
+  stroke: "black";
+}
+.settings .encoding rect:hover, .row-settings .encoding circle:hover{
+  fill: black;
+  cursor: pointer;
+}
+.settings .encoding.selected rect, .row-settings .encoding.selected circle{
+  fill: black;
+}
+.settings-group .headers rect{
+    fill:black;
+}
+
+
+
+/*-------------------------------------------
+               DESCRIPTION AREA
+-------------------------------------------*/
+div.descriptionArea{
+  position: absolute;
+  font: 12px RobotoCondensed-Regular;
+}
+
+div.descriptionArea .title{
+  font: 12px RobotoCondensed-Bold;
+}
+
+
+/*-------------------------------------------
+               ANNOTATION AREA
+-------------------------------------------*/
+div.annotationArea{
+  position: absolute;
+  font: 12px RobotoCondensed-Regular;
+}
+div.annotationArea .title{
+  font: 12px RobotoCondensed-Bold;
+}
+div.annotationArea .annotationCommand{
+  position: absolute;
+}
+/*
+div.annotationArea .annotationCommand:hover{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #ADCEFF;
+}
+*/
+/*-------------------------------------------
+               SVG EXPORT
+-------------------------------------------*/
+div#svgExport{
+  position: absolute;
+}
+
+/*-------------------------------------------
+               BUTTONS
+-------------------------------------------*/
+div.menuButton{
+  position: absolute;
+}
+div.menuButton:hover{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+

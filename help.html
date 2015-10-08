@@ -1,0 +1,135 @@
+<!--
+Bertifier, crafting tabular visualizations, v1
+(c) 2014-2014, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Bertifier Help</title>
+  <link type="text/css" rel="stylesheet" href="./css/jquery-ui-lightness/jquery-ui-1.10.3.custom.min.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/help.css"/>
+  <script src="./lib/d3/d3.js"></script>
+  <script src="./lib/jquery/jquery-1.9.1.js"></script>
+  <script src="./lib/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="./lib/jquery/jquery.csv-0.71.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div id="main">
+
+  <div id="title">BERTIFIER - INSTRUCTIONS</div>
+
+  <hr>
+
+  <div id="steps">
+
+    <div class="step-title">Step 1 - Watch the video</div>
+    <p class="step-content">
+      Take a look at this short video tutorial. Watch it HD full screen otherwise you won't see anything.
+      <iframe id="bertifier-video" src="//www.youtube.com/embed/tJxAF_a_yBQ" frameborder="0" allowfullscreen></iframe>
+    </p>
+
+    <div class="step-title">Step 2 - Format your data</div>
+    <p class="step-content">
+      Copy your data to a Google Spreadsheet or Microsoft Excel and format it following <a target="_blank" href="https://docs.google.com/spreadsheet/ccc?key=0Av0sZE-BGIe_dEZtNTVEdV9fZHBjYzZEbVZwU2NnWmc&usp=sharing#gid=0">this example</a>.<br/>
+      If you do not use Google Spreadsheet, export your data table as a .CSV file.
+    </p>
+
+    <div class="step-title">Step 3 - Load your data</div>
+    <p class="step-content">
+      Go on <a href="http://www.bertifier.com" target="_blank">www.bertifier.com</a> and do one of the following:
+      <ul class="content-list">
+        <li><span class="list-title">CSV: </span> Upload your .CSV file from your computer. Note that the separator for the .CSV must be a comma ",", while some languages such as French use the semicolon by default.</li>
+        <li><span class="list-title">Google Spreadsheet:</span> Google spreadsheet links are not supported anymore.</li>
+      </ul>
+      Then, click on the "Load" button at the bottom of the page.
+    </p>
+
+    <div class="step-title">Step 3 - Explore your data</div>
+    <p class="step-content">
+      <ul class="content-list">
+    <li>Refer to the video to use Bertifier.</li>
+    <li>The standard starting point consists of designing roa and column headers and encoding all values using your preferred shape.</li>
+    <li>Tooltips also appear at the top of the page when hovering a button.</li>
+    <li>Then, there are no rules, and your <a href="https://www.youtube.com/watch?v=WLKsXdDog94">painter's eye</a> will do the rest.</li>
+      </ul>
+    </p>
+
+    <div class="step-title">Step 4 - Export your creation in SVG format</div>
+    <p class="step-content">
+      Once you are done, you can add free floating annotations to your table using using the tools that appear at the top of the page when your mouse cursor enters this area:
+      <img class="content-img" src="./img/help/annotate.png">
+      You can then export your table in SVG format using the export icon that appears at the top of the page when your mouse cursor enters this area:
+      <img class="content-img" src="./img/help/export.png">
+      You can then retouch it as you wish using any vector graphic editor.
+    </p>
+
+    <hr>
+
+    <div class="step-title">Confidentiality</div>
+    <p class="step-content">
+      All data you load in Bertifier will be kept confidential. We have no way of looking at it. The data you load in Bertifier is stored locally, on your computer, and does not circulate on the web.
+    </p>
+
+    <div class="step-title">Want to know more?</div>
+    <p class="step-content">
+      Bertifier is the result of a research project conducted at Aviz, INRIA. You can find many more information and examples on the <a href="http://www.aviz.fr/bertifier" target="_blank">project page</a>.
+    </p>
+
+    <div class="step-title">Experiencing issues?</div>
+    <p class="step-content">
+      Bertifier is a prototype and we are aware of some limitations and problems that can occur. If you encounter any issue using the tool, we encourage you to <a href="mailto:charles.perin@inria.fr,pierre.dragicevic@inria.fr, jean-daniel.fekete@inria.fr?Subject=Bertifier" target="_top">email all co-authors of the project</a>.
+    </p>
+
+
+
+
+  </div>
+
+
+
+
+
+  <hr>
+
+</div>
+
+<div id="footer">
+  <a href="http://charles.perin.free.fr" target="_blank">Charles Perin</a>, <a href="https://www.lri.fr/~dragice/" target="_blank">Pierre Dragicevic</a>, <a href="http://www.aviz.fr/~fekete/" target="_blank">Jean-Daniel Fekete</a>.<br>
+  <a href="http://www.aviz.fr" target="_blank">Aviz</a>, <a href="http://www.inria.fr" target="_blank">INRIA</a>.<br>
+  <a href="http://www.aviz.fr/bertifier" target="_blank">Visit the project page</a><br>
+  <a href="mailto:charles.perin@inria.fr,pierre.dragicevic@inria.fr, jean-daniel.fekete@inria.fr?Subject=Bertifier" target="_top">Email all co-authors</a>
+</div>
+
+<script>
+
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-50004311-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>

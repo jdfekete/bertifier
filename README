@@ -1,0 +1,16 @@
+Bertifier
+=========
+
+Bertifier is a tabular visualization tool.
+
+## Building bertifier
+
+Currently no build step is required. [NPM](https://www.npmjs.com/) is used as a dependency management tool and launcher for tests only (this may change).
+
+## Tests
+
+Tests are based on Jasmine and Selenium (for browser-based tests).
+
+Test dependencies may be installed by running `npm install`.
+
+To run the tests, run `npm test`.

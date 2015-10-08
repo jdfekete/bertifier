@@ -1,0 +1,200 @@
+<!--
+Bertifier, crafting tabular visualizations, v1
+(c) 2014-2014, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Bertin Project</title>
+  <link type="text/css" rel="stylesheet" href="./css/jquery-ui-lightness/jquery-ui-1.10.3.custom.min.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/dataloader.css"/>
+  <script src="./lib/d3/d3.js"></script>
+  <script src="./lib/jquery/jquery-1.9.1.js"></script>
+  <script src="./lib/jquery/jquery-ui-1.10.3.custom.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="main">
+  <table border="1" cellspacing="0" width="100%" class="dataloader-table">
+
+    <thead>
+    <tr>
+      <th style="width: 50%;">
+        Select a file to load
+      </th>
+      <th style="width: 50%;">
+        Enter a google spreadsheet identifier
+      </th>
+    </tr>
+    </thead>
+
+    <tbody align="center" valign="top">
+    <td>
+      <select id="select-existing"></select>
+      <p>
+        <input type="button" value="Select" id="existing">
+      </p>
+    </td>
+    <td>
+      <p>Go to File -> publish to the web<br>Set the options according to this screen capture (don't forget the CSV format)</p>
+      <img src="./img/publishing.png" style="width:503px">
+      <p>Copy the link to your spreadsheet and paste it below</p>
+      <textarea id="link-url"></textarea>
+      <input type="button" value="Select" id="custom">
+    </td>
+    </tbody>
+  </table>
+</div>
+
+<script>
+
+  const DATA_FILES = [
+    {name: "toy dataset 1",                    url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdDVicTJmNi00QzFtT0tHSGI0RC1pZ2c&output=csv"},
+    {name: "toy dataset 2",                    url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdC1FYzhzeGlRUXp1VkRfYlFrLUZLTEE&output=csv"},
+    {name: "toy dataset 3",                    url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdG5LSHFPUjh1dTAxTXpreGRhRHkxX0E&output=csv"},
+    {name: "toy dataset 4",                    url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdGlkT2d1ZjRiNUllOGdldkktOXY5NXc&output=csv"},
+    {name: "toy dataset 5",          url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdEIwRHRubXB3OWI4NlhacUMzaG15d3c&output=csv"},
+    {name: "European values",           url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdE5keElUcDBLdFl4cndwMnAxTXJIeXc&output=csv"},
+    {name: "European values (small)",   url: "https://docs.google.com/spreadsheet/pub?key=0Av0sZE-BGIe_dFNIcUhqNWU3djA1dlVVeTRWeHFFaHc&output=csv"},
+    {name: "Better life index",         url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdE93UkNwNzM1N19PeU9pWHFNX2tTWWc&output=csv"},
+    {name: "Better life index Europe",  url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdEJ6T1ZuNVlZaW5fbnhsd0pVclZlYVE&output=csv"},
+    {name: "bertin_hotel",              url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdEo4bzZGLXZZcl9KSlctSFd4czdnT2c&output=csv"},
+    {name: "bertin_towns",              url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdEhuMElUWnloT2VUMi1XTF9GWGlZN2c&output=csv"},
+    {name: "bertin_navy",               url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdGpZX2pIdW9PTHVNcXVFYktIMm9lSkE&output=csv"},
+    {name: "iris",                      url: "0Att9EugL6O0mdGh2SXJNOTBPN2V3eGlxbDFiWnFtTnc"},
+    {name: "appropriateness",           url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdGhQVzB0dDQ0dlZaWVlJZFZtRDU5dkE&output=csv"},
+    {name: "surgery1",                  url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdG9ESFZtYnhWQnhvYTRqS3JPa3lLVGc&output=csv"},
+    {name: "olives_small",              url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdEVfQ3VvZnZWRmpKODNUR1pqSWxTVGc&output=csv"},
+    {name: "stereostopic_displays",     url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdENNdDRya2VzeW1zRE55bjdtbEM2cEE&output=csv"},
+	{name: "demande_budgetaire_2014",   url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHhyODM4Q0ZuQTdRWHdUNGpXaGZaZlE&output=csv"},
+	{name: "glyphs_study_all",			url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdGhxR2VjOVpZUVVPSlZnTFdCMzAzbFE&output=csv"},
+	{name: "glyphs_study_strategies",	url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHpXODgtS25rdUMwWmQycU9UZGpGYkE&output=csv"},
+	{name: "glyphs_study_icons",		url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHEzS09vVDZqVUFpSmgyMUY1dmViWVE&output=csv"},
+	{name: "glyphs_study_others",		url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdFg4ejZqaEkyQ1AxX050UHh3Sy1jOGc&output=csv"},
+	{name: "quotas_emission",		url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHl0ckpnektMdXNWZEN4bXdEMFBxVkE&output=csv"},
+	{name: "quotas_emission_europe",		url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHo5YXdBWDYweVFpNzBVcUJWZTZRcFE&output=csv"},
+	{name: "environment_europe",		url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdEhFX01lR3FVSE1DazVUOEJYQkc2b3c&output=csv"},
+	{name: "notes_ce2",					url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHpQT19VSkcyVi1tNE1PZVRkZTdNd3c&output=csv"},
+	{name: "scolarisation",					url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdFlLZEs1TUhIZTVIa3ExMUdNbHNMQlE&output=csv"},
+	{name: "education indicators",					url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHNHZ1pTbi02ZnNCTTgwNzQxa054Z0E&output=csv"},
+	{name: "louis",					url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdGFXaWg5SkV4QkYydmZORGdDdXBaZVE&output=csv"},
+	{name: "samuel_yvonne", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdDNyVjdPSTdHT3BGZUtWQnlqSnJFUnc&output=csv"},
+	{name: "samuel_yvonneCopy", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdDM1R19kcUYtY0hZWThORFRrS2hiTkE&output=csv"},
+	{name: "wine", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdElWMVROZHVhX19OdEV1TVlMZjJILXc&output=csv"},
+	{name: "coocurrence_petra", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdDNrZHdyWjU4RW4ySUptTHBGUm9UNFE&output=csv"},
+	{name: "existing_systems_review", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdERwS0pWY2QxLXp3WWdzbENqSDFRQlE&output=csv"},
+	{name: "lakes", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdC1aUzQ0LVdtRXk0eFN6M0ZhTWVsX2c&output=csv"},
+	{name: "suse", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdE90NjhBTWp3Q0Mzel8zT0JLUnhFQlE&output=csv"},
+	{name: "lamasse", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdC16UWtFak5WTzh4MndNTmFydFdoVnc&output=csv"},
+    {name: "existing_systems_review_final", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdGt6QXVzQmxZWU5lNWwwZktrcVBPZHc&output=csv"},
+	{name: "lexi", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdHhqVl9MbU9zV1ZadTdfS0dyOWhhMXc&output=csv"},
+	{name: "questionnaire Bertifier", url: "https://docs.google.com/spreadsheet/pub?key=0Att9EugL6O0mdE9Tang5SklQVEJONVc3NlUtVUlKVVE&output=csv"}
+	
+
+	
+	
+
+  ];
+
+  /*
+   init function starting when the document is ready
+   */
+  $(document).ready(function(){
+    init();
+  });
+
+  function init(){
+	
+		var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+		if(!is_chrome){
+			createChromeError();
+		}
+		else{
+			d3.select("#select-existing").selectAll("option")
+					.data(DATA_FILES)
+					.enter().append("option")
+					.attr({
+						name: "select-existing",
+						value: function(d){return d.url}
+					})
+					.html(function(d){return d.name});
+			d3.selectAll("#existing,#custom").on("click", function(){selectDataset(this)});
+		}
+  }
+	
+	function createChromeError (){
+    d3.select("#main")
+        .style("text-align","center")
+        .html(
+            "Please use <a href='http://www.google.com/chrome/'>Google Chrome</a> to access the page. We do not guarantee everything works as it should using other browsers."
+        );
+  };
+
+  function selectDataset(but){
+    var id = d3.select(but).attr("id");
+    var val = undefined;
+    switch(id){
+      case "existing":
+        val = $("#select-existing").val();
+        break;
+      case "custom":
+        val = $("#link-url").val();
+        break;
+      default: console.error("unknown identifier: "+id);
+    }
+    var dataId = getDataIdentifier(val);
+
+    window.location = "./Matrix.html?dataset="+dataId;
+  }
+
+  /*
+   Return the data in an array of objects,
+   each value in the array is an object {key: value}, with key=the header of the column, value=the value of the cell
+   */
+  function getDataIdentifier(dataString){
+    var prefix = 'https://docs.google.com/spreadsheet/pub?key=',
+        suffix = '&output=csv';
+
+    var obj = getDataEntry(dataString);
+    var url = undefined;
+
+    if(obj != null) url = obj.url;
+    else url = dataString;
+
+    var key = undefined;
+    if(url.indexOf(prefix) != -1){
+      if(url.indexOf(suffix) == -1){
+        alert("the export format must be csv");
+      }
+      key = url.substring(prefix.length, url.length-suffix.length);
+    }
+    else key = url;
+
+    return key;
+  }
+
+  function getDataEntry(dataName){
+    for(var i=0;i<DATA_FILES.length;i++)
+      if(DATA_FILES[i].name == dataName) return DATA_FILES[i];
+    return null;
+  }
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="icons.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="369.95252"
+     inkscape:cy="962.9644"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3925"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="976"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3785"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\header-on.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="translate(-260,35)">
+      <rect
+         y="192.36218"
+         x="280"
+         height="30"
+         width="30"
+         id="rect2987"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3757"
+         y="219.86957"
+         x="282.44144"
+         style="font-size:16.22473526px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Oblique"
+         xml:space="preserve"><tspan
+           style="font-size:34.94558334px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Arial"
+           y="219.86957"
+           x="282.44144"
+           id="tspan3759"
+           sodipodi:role="line">H</tspan></text>
+    </g>
+    <g
+       id="g3790"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\header-off.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="translate(-225,0)">
+      <rect
+         y="192.36218"
+         x="245"
+         height="30"
+         width="30"
+         id="rect2987-2"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3757-0"
+         y="219.86957"
+         x="247.44144"
+         style="font-size:16.22473526px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Oblique"
+         xml:space="preserve"><tspan
+           style="font-size:34.94558334px;font-style:normal;font-weight:bold;fill:#000000;fill-opacity:1;-inkscape-font-specification:Arial"
+           y="219.86957"
+           x="247.44144"
+           id="tspan3759-1"
+           sodipodi:role="line">H</tspan></text>
+    </g>
+    <g
+       id="g3845"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\delete-on.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="translate(-220,0)">
+      <rect
+         y="227.36218"
+         x="280"
+         height="30"
+         width="30"
+         id="rect2987-4"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3757-07"
+         y="254.86957"
+         x="283.37137"
+         style="font-size:16.22473526px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Oblique"
+         xml:space="preserve"><tspan
+           style="font-size:34.94558334px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Arial"
+           y="254.86957"
+           x="283.37137"
+           id="tspan3759-4"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       id="g3840"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\delete-off.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="translate(-185,-35)">
+      <rect
+         y="227.36218"
+         x="245"
+         height="30"
+         width="30"
+         id="rect2987-2-1"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3757-0-8"
+         y="254.86957"
+         x="248.37138"
+         style="font-size:16.22473526px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Oblique"
+         xml:space="preserve"><tspan
+           style="font-size:34.94558334px;font-style:normal;font-weight:bold;fill:#000000;fill-opacity:1;-inkscape-font-specification:Arial"
+           y="254.86957"
+           x="248.37138"
+           id="tspan3759-1-2"
+           sodipodi:role="line">X</tspan></text>
+    </g>
+    <g
+       transform="translate(-110,-35)"
+       id="g3845-1"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\delete-on.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="g3796"
+         transform="translate(-70,35)">
+        <rect
+           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect2987-4-7"
+           width="30"
+           height="30"
+           x="280"
+           y="227.36218" />
+        <path
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path3026"
+           d="m 281,256.36218 28,-28 0,28 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       id="g3785-9"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\header-on.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="translate(-140,35)">
+      <rect
+         y="192.36218"
+         x="280"
+         height="30"
+         width="30"
+         id="rect2987-48"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3757-8"
+         y="219.86957"
+         x="282.44995"
+         style="font-size:16.22473526px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Oblique"
+         xml:space="preserve"><tspan
+           style="font-size:34.94558334px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Arial"
+           y="219.86957"
+           x="282.44995"
+           id="tspan3759-2"
+           sodipodi:role="line">C</tspan></text>
+    </g>
+    <g
+       id="g3785-4"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\header-on.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"
+       transform="translate(-100,35)">
+      <rect
+         y="192.36218"
+         x="280"
+         height="30"
+         width="30"
+         id="rect2987-5"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3757-5"
+         y="217.86218"
+         x="282.07031"
+         style="font-size:16.22473526px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Oblique"
+         xml:space="preserve"><tspan
+           style="font-size:32px;font-style:normal;font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Arial"
+           y="217.86218"
+           x="282.07031"
+           id="tspan3759-17"
+           sodipodi:role="line">Q</tspan></text>
+    </g>
+    <g
+       id="g3955"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Boolean_Square-on.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         inkscape:export-ydpi="120"
+         inkscape:export-xdpi="120"
+         inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\Boolean_Square.png"
+         id="g4380">
+        <g
+           id="g3230"
+           transform="translate(-225,0)">
+          <rect
+             y="227.36218"
+             x="490"
+             height="30"
+             width="30"
+             id="rect2987-4-7-4"
+             style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3941"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Texture-on.png"
+       inkscape:export-xdpi="116.13"
+       inkscape:export-ydpi="116.13">
+      <g
+         id="g3968"
+         inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Texture-on.png"
+         inkscape:export-xdpi="116"
+         inkscape:export-ydpi="116">
+        <rect
+           style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1"
+           id="rect3287"
+           width="30"
+           height="30"
+           x="315"
+           y="227.36218" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 340,257.36218 5,-5"
+           id="path3067-4-2-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 330,257.36218 15,-15"
+           id="path3067-4-2-0-1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 320,257.36218 25,-25"
+           id="path3067-4-2-0-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 315,252.36218 25,-25"
+           id="path3067-4-2-0-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 315,242.36218 15,-15"
+           id="path3067-4-2-0-10"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 315,232.36218 5,-5"
+           id="path3067-4-2-0-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g3925"
+         inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\magic_wand.png"
+         inkscape:export-xdpi="109.09"
+         inkscape:export-ydpi="109.09"
+         transform="translate(-4,-17)">
+        <rect
+           y="76.362183"
+           x="354"
+           height="66.000053"
+           width="66.000183"
+           id="rect3922"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <g
+           transform="translate(95.89566,-1.8719674)"
+           id="g3913">
+          <path
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 296.03107,99.763611 -6.63864,7.056329 -8.35164,-4.892 4.67961,8.47058 -7.22395,6.44781 9.51493,-1.84701 3.86874,8.86056 0.88884,-7.2646 28.01294,27.04447 2.32244,-2.4056 -28.12536,-27.15301 7.72191,-0.75464 -8.75782,-4.11135 2.088,-9.451539 z m -2.44204,14.452489 -0.60774,0.6295 0.0783,-0.57599 0.52947,-0.0535 z"
+             id="path3825"
+             inkscape:connector-curvature="0" />
+          <path
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m 295.94496,99.174109 -6.63864,7.056331 -8.35164,-4.892 4.67961,8.47058 -7.22395,6.44781 9.51493,-1.84701 3.86874,8.86056 0.88884,-7.2646 28.01294,27.04447 2.32244,-2.4056 -28.12536,-27.15301 7.72191,-0.75464 -8.75782,-4.11135 2.088,-9.451541 z m -2.44204,14.452491 -0.60774,0.6295 0.0783,-0.57599 0.52947,-0.0535 z"
+             id="path3825-5"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:type="star"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:9.9;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path3872"
+             sodipodi:sides="5"
+             sodipodi:cx="249.50768"
+             sodipodi:cy="69.231216"
+             sodipodi:r1="4.9119177"
+             sodipodi:r2="1.3816103"
+             sodipodi:arg1="0.66510269"
+             sodipodi:arg2="1.2934212"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 253.37263,72.262557 -3.48663,-1.702539 -2.06696,3.283729 0.54178,-3.842096 -3.76174,-0.951075 3.82147,-0.672006 -0.25792,-3.871526 1.82002,3.426773 3.60234,-1.441659 -2.69664,2.789868 z"
+             inkscape:transform-center-x="0.22806553"
+             inkscape:transform-center-y="0.79961154"
+             transform="matrix(0.27835547,0.96047813,-0.96047813,0.27835547,284.63124,-175.4019)" />
+          <path
+             sodipodi:type="star"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:9.9;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path3872-5"
+             sodipodi:sides="5"
+             sodipodi:cx="249.50768"
+             sodipodi:cy="69.231216"
+             sodipodi:r1="4.9119177"
+             sodipodi:r2="1.3816103"
+             sodipodi:arg1="0.66510269"
+             sodipodi:arg2="1.2934212"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 253.37263,72.262557 -3.48663,-1.702539 -2.06696,3.283729 0.54178,-3.842096 -3.76174,-0.951075 3.82147,-0.672006 -0.25792,-3.871526 1.82002,3.426773 3.60234,-1.441659 -2.69664,2.789868 z"
+             inkscape:transform-center-x="-0.99942736"
+             inkscape:transform-center-y="0.06977867"
+             transform="matrix(0.90690635,-0.42133226,0.42133226,0.90690635,11.863687,140.90647)" />
+          <path
+             sodipodi:type="star"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:9.9;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path3872-54"
+             sodipodi:sides="5"
+             sodipodi:cx="249.50768"
+             sodipodi:cy="69.231216"
+             sodipodi:r1="4.9119177"
+             sodipodi:r2="1.3816103"
+             sodipodi:arg1="0.66510269"
+             sodipodi:arg2="1.2934212"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 253.37263,72.262557 -3.48663,-1.702539 -2.06696,3.283729 0.54178,-3.842096 -3.76174,-0.951075 3.82147,-0.672006 -0.25792,-3.871526 1.82002,3.426773 3.60234,-1.441659 -2.69664,2.789868 z"
+             inkscape:transform-center-x="-1.0387747"
+             inkscape:transform-center-y="0.31243049"
+             transform="matrix(0.89524496,0.4455743,-0.4455743,0.89524496,70.385423,-53.218866)" />
+          <path
+             sodipodi:type="star"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:9.9;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path3872-3"
+             sodipodi:sides="5"
+             sodipodi:cx="249.50768"
+             sodipodi:cy="69.231216"
+             sodipodi:r1="4.9119177"
+             sodipodi:r2="1.3816103"
+             sodipodi:arg1="0.66510269"
+             sodipodi:arg2="1.2934212"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 253.37263,72.262557 -3.48663,-1.702539 -2.06696,3.283729 0.54178,-3.842096 -3.76174,-0.951075 3.82147,-0.672006 -0.25792,-3.871526 1.82002,3.426773 3.60234,-1.441659 -2.69664,2.789868 z"
+             inkscape:transform-center-x="0.062918457"
+             inkscape:transform-center-y="0.4872159"
+             transform="matrix(0.0034103,0.99999418,-0.99999418,0.0034103,377.76511,-158.45091)" />
+          <path
+             sodipodi:type="star"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:9.9;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path3872-0"
+             sodipodi:sides="5"
+             sodipodi:cx="249.50768"
+             sodipodi:cy="69.231216"
+             sodipodi:r1="4.9119177"
+             sodipodi:r2="1.3816103"
+             sodipodi:arg1="0.66510269"
+             sodipodi:arg2="1.2934212"
+             inkscape:flatsided="false"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m 253.37263,72.262557 -3.48663,-1.702539 -2.06696,3.283729 0.54178,-3.842096 -3.76174,-0.951075 3.82147,-0.672006 -0.25792,-3.871526 1.82002,3.426773 3.60234,-1.441659 -2.69664,2.789868 z"
+             inkscape:transform-center-x="-0.60276718"
+             inkscape:transform-center-y="-1.1572122"
+             transform="matrix(0.5575994,-0.83011018,0.83011018,0.5575994,88.000372,299.87972)" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3928"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Quantitative_Square-on.png"
+       inkscape:export-xdpi="116.13"
+       inkscape:export-ydpi="116.13">
+      <rect
+         y="227.36218"
+         x="405"
+         height="30"
+         width="30"
+         id="rect3287-7"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1" />
+      <rect
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3284"
+         width="20.000107"
+         height="19.999985"
+         x="410.00006"
+         y="232.3622" />
+    </g>
+    <g
+       id="g3932">
+      <g
+         inkscape:export-ydpi="116.13"
+         inkscape:export-xdpi="116.13"
+         inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\Color.png"
+         id="g4356">
+        <g
+           id="g4216">
+          <rect
+             style="color:#000000;fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3235"
+             width="15"
+             height="15"
+             x="355"
+             y="227.36218" />
+          <rect
+             style="color:#000000;fill:#d45500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3235-7"
+             width="15"
+             height="15"
+             x="370"
+             y="227.36218" />
+          <rect
+             style="color:#000000;fill:#c83771;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3235-4"
+             width="15"
+             height="15"
+             x="355"
+             y="242.36218" />
+          <rect
+             style="color:#000000;fill:#008033;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3235-9"
+             width="15"
+             height="15"
+             x="370"
+             y="242.36218" />
+          <rect
+             y="227.36218"
+             x="355"
+             height="30"
+             width="30"
+             id="rect3287-0"
+             style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3924"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Circle-on.png"
+       inkscape:export-xdpi="116.13"
+       inkscape:export-ydpi="116.13">
+      <rect
+         y="227.36218"
+         x="445"
+         height="30"
+         width="30"
+         id="rect3287-7-5"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1" />
+      <path
+         d="m 470,242.36218 a 10,10 0 1 1 -20,0 10,10 0 1 1 20,0 z"
+         sodipodi:ry="10"
+         sodipodi:rx="10"
+         sodipodi:cy="242.36218"
+         sodipodi:cx="460"
+         id="path4103"
+         style="color:#000000;fill:#000000;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3912"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Area-on.png"
+       inkscape:export-xdpi="116.13"
+       inkscape:export-ydpi="116.13">
+      <g
+         id="g3960"
+         inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Area-on.png"
+         inkscape:export-xdpi="116.13"
+         inkscape:export-ydpi="116.13">
+        <rect
+           y="227.36218"
+           x="485"
+           height="30"
+           width="30"
+           id="rect4130"
+           style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1" />
+        <rect
+           y="242.36218"
+           x="485"
+           height="15.000024"
+           width="30"
+           id="rect3284-5"
+           style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 485,242.36218 15,-15"
+           id="path3067-1"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 485,232.36218 5,-5"
+           id="path3067-3-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 495,242.36218 15,-15"
+           id="path3067-7-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 505,242.36218 10,-10"
+           id="path3067-6-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <g
+       id="g3903">
+      <g
+         inkscape:export-ydpi="116.13"
+         inkscape:export-xdpi="116.13"
+         inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\Grayscale.png"
+         id="g4342">
+        <g
+           id="g4303">
+          <rect
+             style="color:#000000;fill:#808080;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect3287-7-5-0-0"
+             width="30"
+             height="30"
+             x="565"
+             y="227.36218" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3908"
+       inkscape:export-filename="D:\documents\perso\boulot\these\bertinProject\web\img\setting-header-Barchart-on.png"
+       inkscape:export-xdpi="116.13"
+       inkscape:export-ydpi="116.13">
+      <rect
+         y="227.36218"
+         x="525"
+         height="30"
+         width="30"
+         id="rect3287-7-5-0"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;fill-opacity:1" />
+      <rect
+         y="247.36218"
+         x="525"
+         height="10"
+         width="30"
+         id="rect3284-5-5"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+  </g>
+</svg>
