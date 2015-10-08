@@ -1,7 +1,7 @@
 /*
 Bertifier, crafting tabular visualizations, v1
-(c) 2014-2014, Inria
-Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+(c) 2014-2015, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel, PRIMET Romain
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -10,9 +10,24 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+import Annotator from './Annotator.js';
+import Commands from './Commands.js';
+import DescriptionArea from './DescriptionArea.js';
+import Element from './Element.js';
+import ExportSVG from './ExportSVG.js';
+import {fonts} from './Fonts.js';
+import Glues from './Glue.js';
+import Matrix from './Matrix.js';
+import RowScale from './RowScale.js';
+import Separator from './Separator.js';
+import {BETWEEN, BETWEEN_TARGETS, CHANGE_ENCODING, COL, ENCODING, FIELDS, HEADER, HIDDEN, NEGATIVE, ON_MATRIX, ON_TARGET, ROW, SHOW_BUG_BUTTONS, SCALE_CUSTOM_RANGE_MIN, SCALE_CUSTOM_RANGE_MAX, SCALE_CUSTOM_RANGE_BASELINE, TEXT, UPDATE_DURATION, UPDATE_GLUE, UPDATE_SEPARATOR, UPDATE_TRANSLATE} from './Settings.js';
+import {Utils} from './Utils.js';
 
+function hideLoadingPage(){
+   $("#loading").hide();
+ }
 
-function Bertin(params){
+export function Bertin(params){
   var $this = this;
   this.x = params.x;
   this.y = params.y;
@@ -41,7 +56,7 @@ function Bertin(params){
     $this.init(raw_data, function(){
       hideLoadingPage();
     });
-    if(params.load) $this.saver.loadFromUrl();
+    //if(params.load) $this.saver.loadFromUrl();
   });
 
 }
@@ -92,10 +107,6 @@ Bertin.prototype.loadData = function(csv, dataId, dataVersion, callback){
       }
     });
   }
-
-
-
-
 
 };
 
@@ -267,7 +278,7 @@ Bertin.prototype.init = function(raw_data, callback){
   this.descriptionArea = new DescriptionArea(this, this.descriptionAreaParams);
   this.annotator = new Annotator(this, this.annotatorParams);
   this.exportSVG = new ExportSVG(this, this.exportSVGParams);
-  this.saver = new Saver(this);
+  //this.saver = new Saver(this);
 
   this.matrix.updateAttributes({
     elementsSizes: {type: "text"},

@@ -1,7 +1,7 @@
 /*
 Bertifier, crafting tabular visualizations, v1
-(c) 2014-2014, Inria
-Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+(c) 2014-2015, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel, PRIMET Romain
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -10,8 +10,10 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+import {FIELDS, HEADER, HIDDEN, MAX_DISCRETIZE_VALUE, NEGATIVE, SCALE_IN, SCALE_CUSTOM_RANGE, SCALE_NORMALIZE, SCALE_OUT, SCALE_CONTRAST, SCALE_DISCRETIZE, SCALE_RANGE, SLIDER_MAX, SLIDER_MIN, SLIDER_VALUE, STAT_MEAN} from './Settings.js';
+import {Utils} from './Utils.js';
 
-RowScale = function(row, minMax, baseline){
+export default function RowScale(row, minMax, baseline){
   this.row = row;
 
   if(minMax instanceof Array && minMax.length == 2){
@@ -144,7 +146,7 @@ RowScale.prototype.getNormalizedBaseline = function(){
   }
 };
 
-TransferFunction = function(rowScale){
+function TransferFunction(rowScale){
   var $this = this;
   this.rowScale = rowScale;
 
@@ -211,7 +213,7 @@ TransferFunction.prototype.getValue = function(inOut,type){
 TransferFunction.prototype.changeInValue = function(value){};//To Override
 
 
-TransferNormalize = function(rowScale){
+function TransferNormalize(rowScale){
   this.__proto__.__proto__.constructor.apply(this,[rowScale]);
 };
 TransferNormalize.prototype = Object.create((Object)(TransferFunction.prototype));
@@ -268,8 +270,7 @@ TransferNormalize.prototype.getCellsMinMax = function(){
   return [d3.min(cellsNumber, function(d){return d.value}), d3.max(cellsNumber, function(d){return d.value})];
 };
 
-
-TransferStretch = function(rowScale){
+function TransferStretch(rowScale){
   this.__proto__.__proto__.constructor.apply(this,[rowScale]);
 };
 TransferStretch.prototype = Object.create((Object)(TransferFunction.prototype));
@@ -314,7 +315,7 @@ TransferStretch.prototype.updateTransfer = function(){
  };
  */
 
-TransferContrast = function(rowScale){
+function TransferContrast(rowScale){
   this.__proto__.__proto__.constructor.apply(this,[rowScale]);
 };
 TransferContrast.prototype = Object.create((Object)(TransferFunction.prototype));
@@ -338,9 +339,7 @@ TransferContrast.prototype.updateTransfer = function(){
   this.transfer.domain([this.values[SCALE_IN][SLIDER_MIN],this.values[SCALE_IN][SLIDER_MAX]]).range([this.values[SCALE_OUT][SLIDER_MIN],this.values[SCALE_OUT][SLIDER_MAX]]);
 };
 
-
-
-TransferDiscretize = function(rowScale){
+function TransferDiscretize(rowScale){
   this.__proto__.__proto__.constructor.apply(this,[rowScale]);
 };
 TransferDiscretize.prototype = Object.create((Object)(TransferFunction.prototype));

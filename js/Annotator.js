@@ -13,7 +13,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
  Some inspiration from https://code.google.com/p/svg-edit/ Creative Commons 3.0 BY-SA
  */
 
-function Annotator(bertin, params){
+import {ANNOTATION_COMMANDS, KEY_CODES_INPUT_TEXT, KEY_CODES_MAP, MENU_BUTTONS_SIZE} from './Settings.js';
+
+export default function Annotator(bertin, params){
   this.bertin = bertin;
   this.params = params;
   this.init();

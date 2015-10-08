@@ -1,7 +1,7 @@
 /*
 Bertifier, crafting tabular visualizations, v1
 (c) 2014-2014, Inria
-Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel, PRIMET Romain
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -11,6 +11,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
  Abstract CrossableWidget
  */
+
+import {COMMAND_GROUP_CLOSED, COMMAND_GROUP_OPENED} from './Commands.js';
+import {DISCRETE_SLIDERS_VALUES, FIELDS, NORMALIZED_SIZE, ON_TARGET, ROW, SEPARATOR_MARGIN, SEPARATOR_SIZE, SCALE, SCALE_CONTRAST, SCALE_DISCRETIZE, SCALE_IN, SCALE_RANGE, SEPARATOR, SLIDER_MAX, SLIDER_MIN, SLIDER_ON, SLIDER_VALUE, SLIDERS_BAR_EXTRA_SIZE, TICK_OFF, TICK_ON, WIDGETS_HIGHLIGHT_ELEMENT} from './Settings.js';
+
 function CrossableWidget(butData,group){
   if(arguments.length > 0) this.initWidget(butData,group);
 }
@@ -252,7 +256,7 @@ CrossableWidget.prototype.updateBackground = function(){
 /*
  CrossableButtons, inherits from CrossableWidgets
  */
-function CrossableButton(butData,group){
+export function CrossableButton(butData,group){
   CrossableWidget.apply(this, arguments);
   this.initButton();
 }
@@ -292,16 +296,10 @@ CrossableButton.prototype.endDrag = function(but){
 };
 
 
-
-
-
-
-
-
 /*
  Abstract CrossableSlider, inherits from CrossableWidgets
  */
-CrossableSlider = function(butData,group,snap){
+function CrossableSlider(butData,group,snap){
   CrossableWidget.apply(this, arguments);
   if(arguments.length > 0)this.initBaseSlider(snap);
 };
@@ -500,7 +498,7 @@ CrossableSlider.prototype.getSliderBarAttributes = function(v1,v2){
 /*
  CrossableSimpleSlider, inherits from CrossableSlider
  */
-function CrossableSimpleSlider(butData,group,snap){
+export function CrossableSimpleSlider(butData,group,snap){
   CrossableSlider.apply(this, arguments);
   this.initSimpleSlider();
 }
@@ -598,7 +596,7 @@ CrossableSimpleSlider.prototype.endDrag = function(thumb){
 /*
  CrossableRangeSlider, inherits from CrossableSlider
  */
-function CrossableRangeSlider(butData,group,snap){
+export function CrossableRangeSlider(butData,group,snap){
   CrossableSlider.apply(this, arguments);
   this.initRangeSlider();
 }

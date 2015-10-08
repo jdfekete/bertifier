@@ -1,7 +1,7 @@
 /*
 Bertifier, crafting tabular visualizations, v1
-(c) 2014-2014, Inria
-Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+(c) 2014-2015, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel, PRIMET Romain
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -10,10 +10,15 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+import {COMMAND_GROUP_CLOSED, SETTING_CHANGE_WHEN_RELEASE} from './Commands.js'; //XXX mutual dependency between Commands and CrossingHandler
+import {CrossableButton, CrossableRangeSlider, CrossableSimpleSlider} from './CrossingWidget.js';
+import {BETWEEN_TARGETS, CHANGE_ENCODING, COL, ENCODING, ENCODING_COMMANDS, ENCODING_ORIENTATION, ENCODING_ORIENTATION_TYPES, ENCODING_TYPES, EXCEPT_EXTREMITIES_COMMANDS, FIELDS, FORCE_ALL_CELLS, GLUE, HEADER, HIDDEN, HORIZONTAL, INVERT, NEGATIVE, NORMALIZED_SIZE, ON_BUTTONS, ON_TARGET, RANGE_SLIDER_COMMANDS, REORDER, RESIZE_ROWCOL_BUG, ROW, SCALE, SCALE_CONTRAST, SCALE_CUSTOM_RANGE, SCALE_CUSTOM_RANGE_BASELINE, SCALE_DISCRETIZE, SCALE_GLOBAL, SCALE_IN, SCALE_RANGE, SEPARATOR, SEPARATOR_MARGIN, SEPARATOR_POSITION, SEPARATOR_SIZE, SIMPLE_SLIDER_COMMANDS, SLIDER_DISCRETE, SLIDER_MAX, SLIDER_MIN, SLIDER_VALUE, TEXT, TRANSLATE_ENCODING, UPDATE_DURATION, UPDATE_ENCODING, UPDATE_GLUE, UPDATE_ROWCOL_SIZE_PREVIEW, UPDATE_SEPARATOR, UPDATE_TRANSLATE, VERTICAL} from './Settings.js';
+import {Utils} from './Utils.js';
+
 /*
  To handle the crossing groups
  */
-CrossingHandler = function(commands){
+export default function CrossingHandler(commands){
   this.commands = commands;
   this.bertin = commands.bertin;
   this.groups = [];
@@ -756,17 +761,10 @@ CrossingHandler.prototype.updateButAbsTransform = function(but){
 };
 
 
-
-
-
-
-
-
-
 /*
  To handle the crossing buttons identified
  */
-CrossingGroup = function(handler, mode, target, action){
+function CrossingGroup(handler, mode, target, action){
   this.handler = handler;
   this.mode = mode;
   this.target = target;
@@ -784,13 +782,7 @@ var BUTTON_STATE = {
 
 
 
-
-
-
-
-
-
-CrossingSimpleSlider = function(handler){
+function CrossingSimpleSlider(handler){
   this.handler = handler;
 };
 
@@ -932,7 +924,7 @@ CrossingSimpleSlider.prototype.end = function(){
 
 
 
-CrossingRangeSlider = function(handler){
+function CrossingRangeSlider(handler){
   this.handler = handler;
 };
 
@@ -1092,7 +1084,7 @@ CrossingRangeSlider.prototype.end = function(){
  Called when a crossing is started
  Can be either vertical or horizontal
  */
-CrossingButton = function (handler){
+function CrossingButton(handler){
   this.handler = handler;
 };
 

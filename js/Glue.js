@@ -1,7 +1,7 @@
 /*
 Bertifier, crafting tabular visualizations, v1
-(c) 2014-2014, Inria
-Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel
+(c) 2014-2015, Inria
+Authors: PERIN Charles, DRAGICEVIC Pierre, FEKETE Jean-Daniel, PRIMET Romain
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -10,8 +10,10 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+import {BETWEEN, ON_BUTTONS, ON_MATRIX, ROW} from './Settings.js';
+import {Utils} from './Utils.js';
 
-Glues = function(bertin){
+export default function Glues(bertin){
   this.bertin = bertin;
   this.glues = [];
   this.transitions = this.bertin.matrixParams.transitions.crossingSettings.glue;
@@ -158,7 +160,7 @@ Glues.prototype.refreshAllGlues = function(){
  startIndex and endIndex are indexes of Row/Col
  first and last are Row/Col
  */
-Glue = function(glues, target, action, startIndex, endIndex){
+function Glue(glues, target, action, startIndex, endIndex){
   this.glues = glues;
   this.target = target;
   this.action = action;
