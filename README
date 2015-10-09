@@ -5,7 +5,8 @@ Bertifier is a tabular visualization tool.
 
 ## Building bertifier
 
-Currently no build step is required. [NPM](https://www.npmjs.com/) is used as a dependency management tool and launcher for tests only (this may change).
+The build is managed by [NPM](https://www.npmjs.com/) and webpack.
+To start a development server, run `npm start`, then visit http://localhost:8000
 
 ## Tests
 

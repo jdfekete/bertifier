@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 
 var ROOT_PATH = path.resolve(__dirname);
 var APP_PATH = path.resolve(ROOT_PATH, 'entry.js');
@@ -22,5 +23,14 @@ module.exports = {
         include: [APP_PATH, SOURCE_PATH]
       }
     ]
-  }
+  },
+  devServer: {
+    historyApiFallback: true,
+    hot: true,
+    inline: true,
+    progress: true,
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+  ]  
 };
