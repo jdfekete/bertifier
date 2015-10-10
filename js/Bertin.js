@@ -23,6 +23,9 @@ import Separator from './Separator.js';
 import {BETWEEN, BETWEEN_TARGETS, CHANGE_ENCODING, COL, ENCODING, FIELDS, HEADER, HIDDEN, NEGATIVE, ON_MATRIX, ON_TARGET, ROW, SHOW_BUG_BUTTONS, SCALE_CUSTOM_RANGE_MIN, SCALE_CUSTOM_RANGE_MAX, SCALE_CUSTOM_RANGE_BASELINE, TEXT, UPDATE_DURATION, UPDATE_GLUE, UPDATE_SEPARATOR, UPDATE_TRANSLATE} from './Settings.js';
 import {Utils} from './Utils.js';
 
+import science from 'science';
+import reorder from 'reorder.js';
+
 function hideLoadingPage(){
    $("#loading").hide();
  }
