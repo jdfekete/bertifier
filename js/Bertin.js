@@ -26,11 +26,7 @@ import {Utils} from './Utils.js';
 import science from 'science';
 import reorder from 'reorder.js';
 
-function hideLoadingPage(){
-   $("#loading").hide();
- }
-
-export function Bertin(params){
+export function Bertin(params, callback){
   var $this = this;
   this.x = params.x;
   this.y = params.y;
@@ -56,9 +52,7 @@ export function Bertin(params){
 
   this.loadData(this.csv, this.datasetId, this.datasetVersion, function(){
     var raw_data = this;
-    $this.init(raw_data, function(){
-      hideLoadingPage();
-    });
+    $this.init(raw_data, callback);
     //if(params.load) $this.saver.loadFromUrl();
   });
 

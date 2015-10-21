@@ -22,6 +22,10 @@ import {Bertin} from './js/Bertin.js';
 
   var bertin;
 
+  function hideLoadingPage(){
+     $("#loading").hide();
+   }
+
   function createErrorPage(errorMess){
     d3.select("body").append("div")
         .style("text-align","center")
@@ -47,7 +51,7 @@ import {Bertin} from './js/Bertin.js';
     else createErrorPage("No dataset provided.");
 
     showLoadingPage();
-    bertin = new Bertin(bertin_params);
+    bertin = new Bertin(bertin_params, hideLoadingPage);
 
   }
 
