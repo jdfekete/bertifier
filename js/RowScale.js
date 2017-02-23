@@ -10,7 +10,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-import {FIELDS, HEADER, HIDDEN, MAX_DISCRETIZE_VALUE, NEGATIVE, SCALE_IN, SCALE_CUSTOM_RANGE, SCALE_NORMALIZE, SCALE_OUT, SCALE_CONTRAST, SCALE_DISCRETIZE, SCALE_RANGE, SLIDER_MAX, SLIDER_MIN, SLIDER_VALUE, STAT_MEAN} from './Settings.js';
+import {FIELDS, HEADER, HIDDEN, MAX_DISCRETIZE_VALUE, NEGATIVE, SCALE_IN, SCALE_CUSTOM_RANGE, SCALE_NORMALIZE, SCALE_OUT, SCALE_CONTRAST, SCALE_DISCRETIZE, SCALE_RANGE, SLIDER_MAX, SLIDER_MIN, SLIDER_VALUE, STAT_MEAN, STAT_MID_RANGE} from './Settings.js';
 import {Utils} from './Utils.js';
 
 export default function RowScale(row, minMax, baseline){
@@ -54,7 +54,13 @@ RowScale.prototype.updateStatistics = function(){
     return !$this.row.bertin.isCell(d,HIDDEN) && !$this.row.bertin.isCell(d,HEADER) && Utils.isNumber(d.value);
   }).map(function(d){return d.transferedValue});
 
-  this.statistics[STAT_MEAN] = d3.mean(values);
+	this.statistics[STAT_MEAN] = d3.mean(values);
+	
+	var min = this.customMin != undefined ? this.customMin : d3.min(values);
+	var max = this.customMax != undefined ? this.customMax : d3.max(values);
+	
+  this.statistics[STAT_MID_RANGE] = (max+min)/2;
+	
 };
 
 RowScale.prototype.getStatistic = function(stat){
@@ -137,13 +143,14 @@ RowScale.prototype.changeBaseline = function(){
   this.transferFunctions[SCALE_NORMALIZE].updateTransfer();
 };
 
-RowScale.prototype.getNormalizedBaseline = function(){
-  if(this.baseline != undefined){
-    return this.getTransferedValue(this.baseline);
-  }
-  else {
-    return this.getStatistic(STAT_MEAN);
-  }
+RowScale.prototype.getNormalizedBaseline = function () {
+	if (this.baseline != undefined) {
+		console.log("get specified baseline", this.baseline, "normalized:", this.getTransferedValue(this.baseline));
+		return this.getTransferedValue(this.baseline);
+	} else {
+		console.log("get computed baseline", this.baseline, "normalized:", this.getTransferedValue(this.getStatistic(STAT_MID_RANGE)));
+		return this.getTransferedValue(this.getStatistic(STAT_MID_RANGE));
+	}
 };
 
 function TransferFunction(rowScale){

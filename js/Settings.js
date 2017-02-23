@@ -105,6 +105,7 @@ export const HORIZONTAL = 0,
     VERTICAL = 1;
 
 export const STAT_MEAN = 0;
+export const STAT_MID_RANGE = 1;
 
 export const DEFAULT_ENCODING = TEXT;
 export const DEFAULT_ENCODING_ORIENTATION = ENCODING_ORIENTATION_VERTICAL;
