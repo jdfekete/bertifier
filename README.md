@@ -1,7 +1,7 @@
 Bertifier
 =========
 
-Bertifier is a tabular visualization tool.
+[Bertifier(https://aviz.fr/bertifier) is a tabular visualization tool.
 
 ## Building bertifier
 
