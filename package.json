@@ -22,7 +22,7 @@
     "webpack-dev-server": "~3.11.1"
   },
   "dependencies": {
-    "reorder.js": "2.0.0",
+    "reorder.js": "2.0.1",
     "science": "~1.9.3"
   }
 }
